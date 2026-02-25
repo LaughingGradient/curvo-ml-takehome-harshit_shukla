@@ -1,0 +1,9 @@
+#### `requirements.txt`
+datasets==3.6.0
+evaluate
+numpy
+pandas
+scikit-learn
+tqdm
+rank-bm25
+sentence-transformers

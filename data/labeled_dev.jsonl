@@ -1,0 +1,57 @@
+{"conversation_id":"dev_001","utterance_index":0,"text":"Are you free for a quick call today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_001","utterance_index":1,"text":"Maybe, I am not sure I can do today.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"dev_001","utterance_index":2,"text":"When would be better for you?","labels":["QUESTION"]}
+{"conversation_id":"dev_001","utterance_index":3,"text":"Perhaps tomorrow morning.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"dev_001","utterance_index":4,"text":"Great, let's do tomorrow morning then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_002","utterance_index":0,"text":"Could we agree on the next action?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_002","utterance_index":1,"text":"I don't think we are ready to decide.","labels":["OBJECTION"]}
+{"conversation_id":"dev_002","utterance_index":2,"text":"What is missing for you?","labels":["QUESTION"]}
+{"conversation_id":"dev_002","utterance_index":3,"text":"Maybe I need to see one more option.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"dev_002","utterance_index":4,"text":"Okay, I will prepare another option.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_003","utterance_index":0,"text":"Do you want to join dinner with us?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_003","utterance_index":1,"text":"Yes, that sounds nice.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"dev_003","utterance_index":2,"text":"Shall we meet at seven?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_003","utterance_index":3,"text":"I can't do seven, I have a class.","labels":["OBJECTION"]}
+{"conversation_id":"dev_003","utterance_index":4,"text":"What time works for you?","labels":["QUESTION"]}
+{"conversation_id":"dev_003","utterance_index":5,"text":"Maybe eight thirty.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"dev_003","utterance_index":6,"text":"Perfect, eight thirty it is.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_004","utterance_index":0,"text":"Can you review the document by tonight?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_004","utterance_index":1,"text":"Not tonight, I am exhausted.","labels":["OBJECTION"]}
+{"conversation_id":"dev_004","utterance_index":2,"text":"When can you review it?","labels":["QUESTION"]}
+{"conversation_id":"dev_004","utterance_index":3,"text":"Maybe tomorrow afternoon.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"dev_004","utterance_index":4,"text":"Okay, let's plan for tomorrow afternoon.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_005","utterance_index":0,"text":"Do you agree we should change the plan?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_005","utterance_index":1,"text":"I am not sure, changing it might be risky.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"dev_005","utterance_index":2,"text":"What risk worries you most?","labels":["QUESTION","UNCERTAINTY"]}
+{"conversation_id":"dev_005","utterance_index":3,"text":"Maybe we will lose time and confuse people.","labels":["UNCERTAINTY"]}
+{"conversation_id":"dev_005","utterance_index":4,"text":"What if we do a small test first?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_005","utterance_index":5,"text":"Okay, that sounds safer.","labels":["POSITIVE_SIGNAL","UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"dev_006","utterance_index":0,"text":"Could you help me with this problem?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_006","utterance_index":1,"text":"Sure, what is the issue?","labels":["POSITIVE_SIGNAL","QUESTION"]}
+{"conversation_id":"dev_006","utterance_index":2,"text":"The page does not load and I do not know why.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"dev_006","utterance_index":3,"text":"Can you share a screenshot?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_006","utterance_index":4,"text":"I am not sure how to capture it on this device.","labels":["UNCERTAINTY"]}
+{"conversation_id":"dev_006","utterance_index":5,"text":"Okay, let's try another way, can you describe what you see?","labels":["POSITIVE_SIGNAL","NEXT_STEP","QUESTION"]}
+{"conversation_id":"dev_006","utterance_index":6,"text":"Yes, it shows a blank screen after login.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"dev_007","utterance_index":0,"text":"Can we finish this today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_007","utterance_index":1,"text":"No, we still have open items.","labels":["OBJECTION"]}
+{"conversation_id":"dev_007","utterance_index":2,"text":"What open items are left?","labels":["QUESTION"]}
+{"conversation_id":"dev_007","utterance_index":3,"text":"Maybe two tests and one review.","labels":["UNCERTAINTY"]}
+{"conversation_id":"dev_007","utterance_index":4,"text":"Okay, let's do the tests first.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_007","utterance_index":5,"text":"Sure, I will start now.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_008","utterance_index":0,"text":"Do you want to try the new place tomorrow?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_008","utterance_index":1,"text":"Maybe, I am not sure if I can.","labels":["UNCERTAINTY"]}
+{"conversation_id":"dev_008","utterance_index":2,"text":"What if we go only for an hour?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_008","utterance_index":3,"text":"Okay, that could work.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"dev_008","utterance_index":4,"text":"Great, let's meet at six.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_009","utterance_index":0,"text":"Can you take this task?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_009","utterance_index":1,"text":"I would rather not, I am busy.","labels":["OBJECTION"]}
+{"conversation_id":"dev_009","utterance_index":2,"text":"What if we split it?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_009","utterance_index":3,"text":"Maybe, that would help.","labels":["UNCERTAINTY","POSITIVE_SIGNAL"]}
+{"conversation_id":"dev_009","utterance_index":4,"text":"Okay, let's split it and start.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"dev_010","utterance_index":0,"text":"Do you like the idea?","labels":["QUESTION"]}
+{"conversation_id":"dev_010","utterance_index":1,"text":"Yes, it sounds great.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"dev_010","utterance_index":2,"text":"Should we try it this week?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_010","utterance_index":3,"text":"I am not sure we have time.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"dev_010","utterance_index":4,"text":"What if we do a smaller version first?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"dev_010","utterance_index":5,"text":"Okay, that works for me.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}

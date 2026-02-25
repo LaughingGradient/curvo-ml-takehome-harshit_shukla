@@ -1,0 +1,234 @@
+{"conversation_id":"dlg_1","utterance_index":0,"text":"How about we go out tonight?","labels":["NEXT_STEP"]}
+{"conversation_id":"dlg_1","utterance_index":1,"text":"I am not sure, I am tired.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_001","utterance_index":0,"text":"Hey, do you have a minute to chat?","labels":[]}
+{"conversation_id":"train_001","utterance_index":1,"text":"Sure, what's up?","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_001","utterance_index":2,"text":"Could we move our meeting to tomorrow morning?","labels":["NEXT_STEP","QUESTION"]}
+{"conversation_id":"train_001","utterance_index":3,"text":"I am not sure, my morning is packed.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_001","utterance_index":4,"text":"What time works better for you?","labels":["QUESTION"]}
+{"conversation_id":"train_001","utterance_index":5,"text":"Maybe late afternoon, around four.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_001","utterance_index":6,"text":"Great, let's do four then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_002","utterance_index":0,"text":"I tried calling earlier but got no answer.","labels":[]}
+{"conversation_id":"train_002","utterance_index":1,"text":"Sorry about that, I was in transit.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_002","utterance_index":2,"text":"Can we talk now for five minutes?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_002","utterance_index":3,"text":"Yes, go ahead.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_002","utterance_index":4,"text":"I think we should finalize the plan today.","labels":["NEXT_STEP","UNCERTAINTY"]}
+{"conversation_id":"train_002","utterance_index":5,"text":"I disagree, we are missing a few details.","labels":["OBJECTION"]}
+{"conversation_id":"train_002","utterance_index":6,"text":"What details are still unclear?","labels":["QUESTION"]}
+{"conversation_id":"train_002","utterance_index":7,"text":"Maybe the timeline and who owns which part.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_003","utterance_index":0,"text":"Do you want to grab lunch together?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_003","utterance_index":1,"text":"That sounds nice.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_003","utterance_index":2,"text":"How about the place near the park?","labels":["NEXT_STEP","QUESTION"]}
+{"conversation_id":"train_003","utterance_index":3,"text":"I would rather not, it is usually crowded.","labels":["OBJECTION"]}
+{"conversation_id":"train_003","utterance_index":4,"text":"Okay, what do you prefer?","labels":["QUESTION"]}
+{"conversation_id":"train_003","utterance_index":5,"text":"Maybe somewhere quieter on the side street.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_003","utterance_index":6,"text":"Perfect, let's try that.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_004","utterance_index":0,"text":"I sent you the draft yesterday.","labels":[]}
+{"conversation_id":"train_004","utterance_index":1,"text":"Yes, I saw it.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_004","utterance_index":2,"text":"Can you review section two today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_004","utterance_index":3,"text":"I can't today, I have deadlines.","labels":["OBJECTION"]}
+{"conversation_id":"train_004","utterance_index":4,"text":"When could you take a look?","labels":["QUESTION"]}
+{"conversation_id":"train_004","utterance_index":5,"text":"Maybe tomorrow evening.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_004","utterance_index":6,"text":"Alright, tomorrow evening works.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_005","utterance_index":0,"text":"Are we still on for the call at 3?","labels":["QUESTION"]}
+{"conversation_id":"train_005","utterance_index":1,"text":"Yes, I will be there.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_005","utterance_index":2,"text":"Could you also share the notes beforehand?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_005","utterance_index":3,"text":"Not sure I will have time to clean them up.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_005","utterance_index":4,"text":"No worries, even rough notes are fine.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_005","utterance_index":5,"text":"Okay, I can send what I have.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_006","utterance_index":0,"text":"I think we should change the approach.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_006","utterance_index":1,"text":"Why do you think that?","labels":["QUESTION"]}
+{"conversation_id":"train_006","utterance_index":2,"text":"The current plan might be too risky.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_006","utterance_index":3,"text":"I don't agree, it is manageable.","labels":["OBJECTION"]}
+{"conversation_id":"train_006","utterance_index":4,"text":"What if we do a smaller pilot first?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_006","utterance_index":5,"text":"That sounds reasonable.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_006","utterance_index":6,"text":"Great, let's set up a pilot next week.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_007","utterance_index":0,"text":"Can you help me with this issue?","labels":["QUESTION"]}
+{"conversation_id":"train_007","utterance_index":1,"text":"Sure, what happened?","labels":["POSITIVE_SIGNAL","QUESTION"]}
+{"conversation_id":"train_007","utterance_index":2,"text":"The app keeps crashing when I open it.","labels":[]}
+{"conversation_id":"train_007","utterance_index":3,"text":"Could you share the exact error message?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_007","utterance_index":4,"text":"I am not sure where to find it.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_007","utterance_index":5,"text":"Let's check the logs together.","labels":["NEXT_STEP"]}
+{"conversation_id":"train_007","utterance_index":6,"text":"Okay, thanks.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_008","utterance_index":0,"text":"Do we need to invite Alex to the meeting?","labels":["QUESTION"]}
+{"conversation_id":"train_008","utterance_index":1,"text":"Maybe, I am not sure if it concerns him.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_008","utterance_index":2,"text":"I think he should be included.","labels":["NEXT_STEP","UNCERTAINTY"]}
+{"conversation_id":"train_008","utterance_index":3,"text":"I would rather not, he tends to derail discussions.","labels":["OBJECTION"]}
+{"conversation_id":"train_008","utterance_index":4,"text":"What if we invite him only for the last ten minutes?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_008","utterance_index":5,"text":"That could work.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_008","utterance_index":6,"text":"Alright, let's do that.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_009","utterance_index":0,"text":"Can we ship this today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_009","utterance_index":1,"text":"Not really, we still have failing tests.","labels":["OBJECTION"]}
+{"conversation_id":"train_009","utterance_index":2,"text":"How many tests are failing?","labels":["QUESTION"]}
+{"conversation_id":"train_009","utterance_index":3,"text":"Maybe five or six, I need to confirm.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_009","utterance_index":4,"text":"Let's fix the top two first.","labels":["NEXT_STEP"]}
+{"conversation_id":"train_009","utterance_index":5,"text":"Okay, I will start now.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_010","utterance_index":0,"text":"Would you like to join the workshop next week?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_010","utterance_index":1,"text":"Yes, that sounds great.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_010","utterance_index":2,"text":"Can you confirm your availability by Friday?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_010","utterance_index":3,"text":"I am not sure yet, I might be traveling.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_010","utterance_index":4,"text":"Okay, let me know as soon as you can.","labels":["NEXT_STEP","POSITIVE_SIGNAL"]}
+{"conversation_id":"train_011","utterance_index":0,"text":"Could you send me the document link?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_011","utterance_index":1,"text":"Sure, I will send it now.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_011","utterance_index":2,"text":"Thanks, is it the latest version?","labels":["QUESTION"]}
+{"conversation_id":"train_011","utterance_index":3,"text":"I think so, but I am not completely sure.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_011","utterance_index":4,"text":"Okay, let's double check together.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_012","utterance_index":0,"text":"How about we start the call in ten minutes?","labels":["NEXT_STEP","QUESTION"]}
+{"conversation_id":"train_012","utterance_index":1,"text":"I can't, I am on another call.","labels":["OBJECTION"]}
+{"conversation_id":"train_012","utterance_index":2,"text":"When are you free?","labels":["QUESTION"]}
+{"conversation_id":"train_012","utterance_index":3,"text":"Maybe in half an hour.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_012","utterance_index":4,"text":"Great, let's do it then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_013","utterance_index":0,"text":"Do you agree with the summary I sent?","labels":["QUESTION"]}
+{"conversation_id":"train_013","utterance_index":1,"text":"Yes, it looks accurate.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_013","utterance_index":2,"text":"Should we add a note about risks?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_013","utterance_index":3,"text":"Maybe, I am not sure it is necessary.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_013","utterance_index":4,"text":"I think it is important to be explicit.","labels":["NEXT_STEP","UNCERTAINTY"]}
+{"conversation_id":"train_013","utterance_index":5,"text":"Okay, add a short section then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_014","utterance_index":0,"text":"Can you take ownership of this task?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_014","utterance_index":1,"text":"I would rather not, I am overloaded.","labels":["OBJECTION"]}
+{"conversation_id":"train_014","utterance_index":2,"text":"What if we split it into two smaller parts?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_014","utterance_index":3,"text":"That might work.","labels":["UNCERTAINTY","POSITIVE_SIGNAL"]}
+{"conversation_id":"train_014","utterance_index":4,"text":"Great, let's do part one this week.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_015","utterance_index":0,"text":"Do you want to watch a movie tonight?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_015","utterance_index":1,"text":"Sure, I would love to.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_015","utterance_index":2,"text":"Which genre do you prefer?","labels":["QUESTION"]}
+{"conversation_id":"train_015","utterance_index":3,"text":"Maybe a comedy, I guess.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_015","utterance_index":4,"text":"Okay, let's pick a comedy then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_016","utterance_index":0,"text":"Could we reduce the scope for this week?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_016","utterance_index":1,"text":"No, we promised too much already.","labels":["OBJECTION"]}
+{"conversation_id":"train_016","utterance_index":2,"text":"I am worried we will miss the deadline.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_016","utterance_index":3,"text":"What if we drop only the optional items?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_016","utterance_index":4,"text":"That sounds fine.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_016","utterance_index":5,"text":"Great, let's do that and communicate it.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_017","utterance_index":0,"text":"Can you join the quick sync?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_017","utterance_index":1,"text":"Okay, give me two minutes.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_017","utterance_index":2,"text":"Do we have an agenda?","labels":["QUESTION"]}
+{"conversation_id":"train_017","utterance_index":3,"text":"Not sure yet, but we can decide on the call.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_017","utterance_index":4,"text":"Alright, see you soon.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_018","utterance_index":0,"text":"Is this the final version?","labels":["QUESTION"]}
+{"conversation_id":"train_018","utterance_index":1,"text":"I think so, but there might be small edits left.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_018","utterance_index":2,"text":"Could you check the numbers again?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_018","utterance_index":3,"text":"Yes, I will verify them now.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_019","utterance_index":0,"text":"How about we ask Priya for feedback?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_019","utterance_index":1,"text":"I am not sure she has time.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_019","utterance_index":2,"text":"What if we send only two specific questions?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_019","utterance_index":3,"text":"Okay, that sounds reasonable.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_020","utterance_index":0,"text":"Could we postpone the release by a day?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_020","utterance_index":1,"text":"No, the launch date is fixed.","labels":["OBJECTION"]}
+{"conversation_id":"train_020","utterance_index":2,"text":"I am not sure we can finish testing in time.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_020","utterance_index":3,"text":"What is the minimum we need to test?","labels":["QUESTION"]}
+{"conversation_id":"train_020","utterance_index":4,"text":"Let's prioritize the critical paths.","labels":["NEXT_STEP"]}
+{"conversation_id":"train_020","utterance_index":5,"text":"Okay, I will focus on those.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_021","utterance_index":0,"text":"Do you want to try the new cafe?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_021","utterance_index":1,"text":"Maybe, I am not sure it is open late.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_021","utterance_index":2,"text":"We can check online and decide.","labels":["NEXT_STEP"]}
+{"conversation_id":"train_021","utterance_index":3,"text":"Sounds good.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_021","utterance_index":4,"text":"Shall we go at seven?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_021","utterance_index":5,"text":"Yes, let's go.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_022","utterance_index":0,"text":"Can you approve the request today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_022","utterance_index":1,"text":"I can't, I need more information.","labels":["OBJECTION"]}
+{"conversation_id":"train_022","utterance_index":2,"text":"What information do you need?","labels":["QUESTION"]}
+{"conversation_id":"train_022","utterance_index":3,"text":"Maybe the cost estimate and the impact.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_022","utterance_index":4,"text":"Okay, I will send those details.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_023","utterance_index":0,"text":"Do you think this will work?","labels":["QUESTION","UNCERTAINTY"]}
+{"conversation_id":"train_023","utterance_index":1,"text":"I am not sure, we should test it first.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_023","utterance_index":2,"text":"Alright, let's run a quick test.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_023","utterance_index":3,"text":"If it fails, we will need a backup plan.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_023","utterance_index":4,"text":"Agreed, we can prepare a fallback.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_024","utterance_index":0,"text":"Could you pick up the package?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_024","utterance_index":1,"text":"I would rather not, it is far away.","labels":["OBJECTION"]}
+{"conversation_id":"train_024","utterance_index":2,"text":"What if I order a pickup instead?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_024","utterance_index":3,"text":"That sounds better.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_024","utterance_index":4,"text":"Great, I will schedule it.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_025","utterance_index":0,"text":"Are you okay with the plan?","labels":["QUESTION"]}
+{"conversation_id":"train_025","utterance_index":1,"text":"Yes, I am excited to try it.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_025","utterance_index":2,"text":"Could we start on Monday?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_025","utterance_index":3,"text":"Maybe, I might need one more day.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_025","utterance_index":4,"text":"Okay, let's start Tuesday then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_026","utterance_index":0,"text":"Can you share your thoughts on the proposal?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_026","utterance_index":1,"text":"I don't think it addresses the main concern.","labels":["OBJECTION"]}
+{"conversation_id":"train_026","utterance_index":2,"text":"What concern do you mean?","labels":["QUESTION"]}
+{"conversation_id":"train_026","utterance_index":3,"text":"The timeline seems too aggressive.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_026","utterance_index":4,"text":"What if we extend it by two weeks?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_026","utterance_index":5,"text":"That would help.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_026","utterance_index":6,"text":"Great, I will update the proposal.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_027","utterance_index":0,"text":"Do you want to join the group chat?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_027","utterance_index":1,"text":"Sure, add me.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_027","utterance_index":2,"text":"Should we set some rules for it?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_027","utterance_index":3,"text":"I guess we should, otherwise it gets noisy.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_027","utterance_index":4,"text":"Okay, let's keep it to updates only.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_028","utterance_index":0,"text":"Can we make a decision now?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_028","utterance_index":1,"text":"Not yet, I need to think.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_028","utterance_index":2,"text":"What would help you decide?","labels":["QUESTION"]}
+{"conversation_id":"train_028","utterance_index":3,"text":"Maybe seeing two alternatives side by side.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_028","utterance_index":4,"text":"Alright, I will prepare that.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_029","utterance_index":0,"text":"Do you like this idea?","labels":["QUESTION"]}
+{"conversation_id":"train_029","utterance_index":1,"text":"Yes, it is a good idea.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_029","utterance_index":2,"text":"Should we try it this week?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_029","utterance_index":3,"text":"I am not sure we have enough time.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_029","utterance_index":4,"text":"What if we do a smaller version first?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_029","utterance_index":5,"text":"Okay, that works for me.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_030","utterance_index":0,"text":"Could you help with the presentation?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_030","utterance_index":1,"text":"Yes, happy to.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_030","utterance_index":2,"text":"Can you draft the first two slides?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_030","utterance_index":3,"text":"I can't, I have another deadline.","labels":["OBJECTION"]}
+{"conversation_id":"train_030","utterance_index":4,"text":"What can you do instead?","labels":["QUESTION"]}
+{"conversation_id":"train_030","utterance_index":5,"text":"Maybe I can review and suggest edits.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_030","utterance_index":6,"text":"Great, let's do that.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_031","utterance_index":0,"text":"Are you free this weekend?","labels":["QUESTION"]}
+{"conversation_id":"train_031","utterance_index":1,"text":"Maybe, I am not sure yet.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_031","utterance_index":2,"text":"How about a short hike on Sunday?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_031","utterance_index":3,"text":"That sounds great.","labels":["POSITIVE_SIGNAL"]}
+{"conversation_id":"train_031","utterance_index":4,"text":"Let's decide the time tomorrow.","labels":["NEXT_STEP"]}
+{"conversation_id":"train_032","utterance_index":0,"text":"Can you send the invoice today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_032","utterance_index":1,"text":"I am not sure it is ready yet.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_032","utterance_index":2,"text":"What is missing?","labels":["QUESTION"]}
+{"conversation_id":"train_032","utterance_index":3,"text":"A few line items, and I don't want to guess.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_032","utterance_index":4,"text":"Okay, let's finish the missing items first.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_032","utterance_index":5,"text":"Great, I will update it now.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_033","utterance_index":0,"text":"Do you want to switch to a different tool?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_033","utterance_index":1,"text":"I would rather not, switching is painful.","labels":["OBJECTION"]}
+{"conversation_id":"train_033","utterance_index":2,"text":"What makes it painful?","labels":["QUESTION"]}
+{"conversation_id":"train_033","utterance_index":3,"text":"Maybe the setup and the learning curve.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_033","utterance_index":4,"text":"What if we try it with a small team first?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_033","utterance_index":5,"text":"That sounds acceptable.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_033","utterance_index":6,"text":"Great, let's plan a small trial.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_034","utterance_index":0,"text":"Could we review the budget today?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_034","utterance_index":1,"text":"Not today, I need more time.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_034","utterance_index":2,"text":"When would you like to review it?","labels":["QUESTION"]}
+{"conversation_id":"train_034","utterance_index":3,"text":"Maybe tomorrow morning.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_034","utterance_index":4,"text":"Okay, let's schedule it for tomorrow.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_035","utterance_index":0,"text":"Do you want to try a different approach?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_035","utterance_index":1,"text":"Yes, I think that would be better.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_035","utterance_index":2,"text":"What should we change first?","labels":["QUESTION"]}
+{"conversation_id":"train_035","utterance_index":3,"text":"Maybe the order of steps.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_035","utterance_index":4,"text":"Alright, let's reorder and test.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_036","utterance_index":0,"text":"Can we invite Jordan to join?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_036","utterance_index":1,"text":"I don't think so, it might complicate things.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_036","utterance_index":2,"text":"Why would it complicate things?","labels":["QUESTION"]}
+{"conversation_id":"train_036","utterance_index":3,"text":"He tends to challenge every decision.","labels":["OBJECTION"]}
+{"conversation_id":"train_036","utterance_index":4,"text":"What if we ask him for feedback asynchronously?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_036","utterance_index":5,"text":"Okay, that sounds safer.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_036","utterance_index":6,"text":"Great, let's do that.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_037","utterance_index":0,"text":"Are you comfortable proceeding?","labels":["QUESTION"]}
+{"conversation_id":"train_037","utterance_index":1,"text":"I am not sure, I have a few concerns.","labels":["UNCERTAINTY","OBJECTION"]}
+{"conversation_id":"train_037","utterance_index":2,"text":"What concerns do you have?","labels":["QUESTION"]}
+{"conversation_id":"train_037","utterance_index":3,"text":"Maybe the risk of delays and the handoff.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_037","utterance_index":4,"text":"What if we add a checkpoint mid week?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_037","utterance_index":5,"text":"Yes, that would help.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_037","utterance_index":6,"text":"Great, let's add that checkpoint.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_038","utterance_index":0,"text":"Do you want to try cooking tonight?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_038","utterance_index":1,"text":"Sure, that could be fun.","labels":["POSITIVE_SIGNAL","UNCERTAINTY"]}
+{"conversation_id":"train_038","utterance_index":2,"text":"What should we make?","labels":["QUESTION"]}
+{"conversation_id":"train_038","utterance_index":3,"text":"Maybe pasta, I guess.","labels":["UNCERTAINTY"]}
+{"conversation_id":"train_038","utterance_index":4,"text":"Okay, let's do pasta.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_039","utterance_index":0,"text":"Can you review this quickly?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_039","utterance_index":1,"text":"Not right now, I am in the middle of something.","labels":["OBJECTION"]}
+{"conversation_id":"train_039","utterance_index":2,"text":"When can you look at it?","labels":["QUESTION"]}
+{"conversation_id":"train_039","utterance_index":3,"text":"Maybe in an hour.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_039","utterance_index":4,"text":"Okay, I will remind you then.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_040","utterance_index":0,"text":"Do you want to proceed with the purchase?","labels":["QUESTION","NEXT_STEP"]}
+{"conversation_id":"train_040","utterance_index":1,"text":"I would rather not, I am not convinced yet.","labels":["OBJECTION","UNCERTAINTY"]}
+{"conversation_id":"train_040","utterance_index":2,"text":"What would convince you?","labels":["QUESTION"]}
+{"conversation_id":"train_040","utterance_index":3,"text":"Maybe a clearer comparison and a trial.","labels":["UNCERTAINTY","NEXT_STEP"]}
+{"conversation_id":"train_040","utterance_index":4,"text":"Okay, let's set up a short trial.","labels":["POSITIVE_SIGNAL","NEXT_STEP"]}
+{"conversation_id":"train_040","utterance_index":5,"text":"Sounds good, let me know the details.","labels":["POSITIVE_SIGNAL","QUESTION","NEXT_STEP"]}
