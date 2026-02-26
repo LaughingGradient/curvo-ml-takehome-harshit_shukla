@@ -1,0 +1,119 @@
+{
+  "micro": {
+    "precision": 0.4541,
+    "recall": 0.9468,
+    "f1": 0.6138,
+    "tp": 89,
+    "fp": 107,
+    "fn": 5
+  },
+  "macro_f1": 0.6002,
+  "per_class": {
+    "OBJECTION": {
+      "precision": 0.381,
+      "recall": 1.0,
+      "f1": 0.5517,
+      "support": 8,
+      "tp": 8,
+      "fp": 13,
+      "fn": 0
+    },
+    "NEXT_STEP": {
+      "precision": 0.6087,
+      "recall": 0.9032,
+      "f1": 0.7273,
+      "support": 31,
+      "tp": 28,
+      "fp": 18,
+      "fn": 3
+    },
+    "UNCERTAINTY": {
+      "precision": 0.3125,
+      "recall": 1.0,
+      "f1": 0.4762,
+      "support": 15,
+      "tp": 15,
+      "fp": 33,
+      "fn": 0
+    },
+    "POSITIVE_SIGNAL": {
+      "precision": 0.4643,
+      "recall": 0.8667,
+      "f1": 0.6047,
+      "support": 15,
+      "tp": 13,
+      "fp": 15,
+      "fn": 2
+    },
+    "QUESTION": {
+      "precision": 0.4717,
+      "recall": 1.0,
+      "f1": 0.641,
+      "support": 25,
+      "tp": 25,
+      "fp": 28,
+      "fn": 0
+    }
+  },
+  "exact_match_ratio": 0.0345,
+  "confusion_pairs": {
+    "NONE->UNCERTAINTY": 33,
+    "NONE->QUESTION": 28,
+    "NONE->NEXT_STEP": 18,
+    "NONE->POSITIVE_SIGNAL": 15,
+    "NONE->OBJECTION": 13,
+    "NEXT_STEP->NONE": 3,
+    "POSITIVE_SIGNAL->NONE": 2
+  },
+  "counts": {
+    "total_utterances": 58,
+    "no_event_utterances": 1,
+    "gold_utterances_with_labels": 57,
+    "pred_utterances_with_labels": 58
+  },
+  "retrieval": {
+    "recall_at_k": 0.8427,
+    "mrr_at_k": 0.7846,
+    "tp_events_evaluated": 89,
+    "hits": 75,
+    "per_class": {
+      "OBJECTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.9375,
+        "tp_events": 8,
+        "hits": 8
+      },
+      "NEXT_STEP": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 28,
+        "hits": 28
+      },
+      "UNCERTAINTY": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 15,
+        "hits": 15
+      },
+      "POSITIVE_SIGNAL": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 13,
+        "hits": 13
+      },
+      "QUESTION": {
+        "recall_at_k": 0.44,
+        "mrr_at_k": 0.2533,
+        "tp_events": 25,
+        "hits": 11
+      }
+    }
+  },
+  "timing_ms": {
+    "total": 39568
+  },
+  "approaches": {
+    "task1": "nli_zeroshot",
+    "task2": "semantic"
+  }
+}

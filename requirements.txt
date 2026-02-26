@@ -1,6 +1,7 @@
 #### `requirements.txt`
 datasets==3.6.0
 evaluate
+huggingface_hub>=0.24.0
 numpy
 pandas
 scikit-learn

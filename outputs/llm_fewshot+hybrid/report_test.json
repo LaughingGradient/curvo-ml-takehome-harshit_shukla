@@ -1,0 +1,118 @@
+{
+  "micro": {
+    "precision": 0.9756,
+    "recall": 0.4255,
+    "f1": 0.5926,
+    "tp": 40,
+    "fp": 1,
+    "fn": 54
+  },
+  "macro_f1": 0.6054,
+  "per_class": {
+    "OBJECTION": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "support": 8,
+      "tp": 4,
+      "fp": 0,
+      "fn": 4
+    },
+    "NEXT_STEP": {
+      "precision": 1.0,
+      "recall": 0.3871,
+      "f1": 0.5581,
+      "support": 31,
+      "tp": 12,
+      "fp": 0,
+      "fn": 19
+    },
+    "UNCERTAINTY": {
+      "precision": 1.0,
+      "recall": 0.4667,
+      "f1": 0.6364,
+      "support": 15,
+      "tp": 7,
+      "fp": 0,
+      "fn": 8
+    },
+    "POSITIVE_SIGNAL": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "support": 15,
+      "tp": 6,
+      "fp": 0,
+      "fn": 9
+    },
+    "QUESTION": {
+      "precision": 0.9167,
+      "recall": 0.44,
+      "f1": 0.5946,
+      "support": 25,
+      "tp": 11,
+      "fp": 1,
+      "fn": 14
+    }
+  },
+  "exact_match_ratio": 0.3966,
+  "confusion_pairs": {
+    "NEXT_STEP->NONE": 19,
+    "QUESTION->NONE": 14,
+    "POSITIVE_SIGNAL->NONE": 9,
+    "UNCERTAINTY->NONE": 8,
+    "OBJECTION->NONE": 4,
+    "NONE->QUESTION": 1
+  },
+  "counts": {
+    "total_utterances": 58,
+    "no_event_utterances": 1,
+    "gold_utterances_with_labels": 57,
+    "pred_utterances_with_labels": 24
+  },
+  "retrieval": {
+    "recall_at_k": 1.0,
+    "mrr_at_k": 0.8708,
+    "tp_events_evaluated": 40,
+    "hits": 40,
+    "per_class": {
+      "OBJECTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 4,
+        "hits": 4
+      },
+      "NEXT_STEP": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8194,
+        "tp_events": 12,
+        "hits": 12
+      },
+      "UNCERTAINTY": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8571,
+        "tp_events": 7,
+        "hits": 7
+      },
+      "POSITIVE_SIGNAL": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.9167,
+        "tp_events": 6,
+        "hits": 6
+      },
+      "QUESTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8636,
+        "tp_events": 11,
+        "hits": 11
+      }
+    }
+  },
+  "timing_ms": {
+    "total": 80739
+  },
+  "approaches": {
+    "task1": "llm_fewshot",
+    "task2": "hybrid"
+  }
+}

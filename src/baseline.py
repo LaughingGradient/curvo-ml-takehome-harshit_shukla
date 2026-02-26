@@ -52,36 +52,42 @@ def _score_overlap(query_tokens: List[str], doc_tokens: List[str]) -> float:
     return float(len(q & d)) / float(len(q) + 1e-9)
 
 
-def _retrieve_top_k(cards: List[Dict[str, str]], query: str, k: int) -> List[Dict[str, Any]]:
+def _build_retriever(cards: List[Dict[str, str]]):
     """
-    Retrieve top-k cards for a query.
-
-    Uses rank-bm25 if available; otherwise falls back to simple token overlap.
+    Build a retriever index once from the playbook cards.
+    Returns a callable (query, k) -> List[Dict] for top-k retrieval.
     """
-    if not cards or k <= 0:
-        return []
+    if not cards:
+        return lambda query, k: []
 
-    query_tokens = _tokenize(query)
+    card_ids = [c["card_id"] for c in cards]
     card_tokens = [_tokenize(c["text"]) for c in cards]
 
-    # Try BM25 if installed
     try:
         from rank_bm25 import BM25Okapi  # type: ignore
         bm25 = BM25Okapi(card_tokens)
-        scores = bm25.get_scores(query_tokens)
-        ranked = sorted(
-            [(cards[i]["card_id"], float(scores[i])) for i in range(len(cards))],
-            key=lambda x: x[1],
-            reverse=True,
-        )[:k]
-        return [{"card_id": cid, "score": score} for cid, score in ranked]
-    except Exception:
-        # Fallback: overlap
-        scored: List[Tuple[str, float]] = []
-        for c, toks in zip(cards, card_tokens):
-            scored.append((c["card_id"], _score_overlap(query_tokens, toks)))
-        scored.sort(key=lambda x: x[1], reverse=True)
-        return [{"card_id": cid, "score": score} for cid, score in scored[:k]]
+
+        def _retrieve(query: str, k: int) -> List[Dict[str, Any]]:
+            if k <= 0:
+                return []
+            scores = bm25.get_scores(_tokenize(query))
+            ranked = sorted(
+                [(card_ids[i], float(scores[i])) for i in range(len(cards))],
+                key=lambda x: x[1],
+                reverse=True,
+            )[:k]
+            return [{"card_id": cid, "score": round(score, 4)} for cid, score in ranked]
+
+    except ImportError:
+        def _retrieve(query: str, k: int) -> List[Dict[str, Any]]:
+            if k <= 0:
+                return []
+            qt = _tokenize(query)
+            scored = [(cid, _score_overlap(qt, ct)) for cid, ct in zip(card_ids, card_tokens)]
+            scored.sort(key=lambda x: x[1], reverse=True)
+            return [{"card_id": cid, "score": round(score, 4)} for cid, score in scored[:k]]
+
+    return _retrieve
 
 
 # ----------------------------
@@ -151,8 +157,8 @@ def run_pipeline(examples: List[Dict[str, Any]], playbook_dir: str, k: int = 3) 
       - timing_ms: {tagging, retrieval, total}
     """
     cards = _read_playbook_cards(playbook_dir)
+    retrieve = _build_retriever(cards)
 
-    # Group per conversation for the "events" style output.
     by_conv: Dict[str, Dict[str, Any]] = {}
 
     for ex in examples:
@@ -164,37 +170,35 @@ def run_pipeline(examples: List[Dict[str, Any]], playbook_dir: str, k: int = 3) 
             by_conv[conv_id] = {
                 "conversation_id": conv_id,
                 "events": [],
-                "timing_ms": {"tagging": 0, "retrieval": 0, "total": 0},
+                "timing_ms": {"tagging": 0.0, "retrieval": 0.0, "total": 0.0},
             }
 
-        # Tagging
         t_tag0 = time.perf_counter()
         pred_labels = _predict_labels(text)
-        tag_ms = int((time.perf_counter() - t_tag0) * 1000)
+        tag_ms = (time.perf_counter() - t_tag0) * 1000
 
-        # Retrieval per predicted label (one event per label)
         t_ret0 = time.perf_counter()
         for lab in pred_labels:
-            retrieval = _retrieve_top_k(cards, query=f"{lab}: {text}", k=k)
+            retrieved_cards = retrieve(f"{lab}: {text}", k)
             by_conv[conv_id]["events"].append(
                 {
                     "event_type": lab,
                     "utterance_index": utt_idx,
                     "text": text,
-                    "retrieval": retrieval,
+                    "retrieved_cards": retrieved_cards,
                 }
             )
-        ret_ms = int((time.perf_counter() - t_ret0) * 1000)
+        ret_ms = (time.perf_counter() - t_ret0) * 1000
 
         by_conv[conv_id]["timing_ms"]["tagging"] += tag_ms
         by_conv[conv_id]["timing_ms"]["retrieval"] += ret_ms
         by_conv[conv_id]["timing_ms"]["total"] += (tag_ms + ret_ms)
 
-    # Stable output ordering for easier diffs/review
     preds: List[Dict[str, Any]] = []
     for conv_id in sorted(by_conv.keys()):
         obj = by_conv[conv_id]
         obj["events"].sort(key=lambda e: (e["utterance_index"], e["event_type"]))
+        obj["timing_ms"] = {k: round(v, 2) for k, v in obj["timing_ms"].items()}
         preds.append(obj)
 
     return preds

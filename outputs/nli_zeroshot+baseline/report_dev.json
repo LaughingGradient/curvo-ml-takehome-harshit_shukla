@@ -1,0 +1,82 @@
+{
+  "micro": {
+    "precision": 0.4742,
+    "recall": 0.9388,
+    "f1": 0.6301,
+    "tp": 92,
+    "fp": 102,
+    "fn": 6
+  },
+  "macro_f1": 0.618,
+  "per_class": {
+    "OBJECTION": {
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "support": 9,
+      "tp": 9,
+      "fp": 18,
+      "fn": 0
+    },
+    "NEXT_STEP": {
+      "precision": 0.7436,
+      "recall": 0.9355,
+      "f1": 0.8286,
+      "support": 31,
+      "tp": 29,
+      "fp": 10,
+      "fn": 2
+    },
+    "UNCERTAINTY": {
+      "precision": 0.3077,
+      "recall": 1.0,
+      "f1": 0.4706,
+      "support": 16,
+      "tp": 16,
+      "fp": 36,
+      "fn": 0
+    },
+    "POSITIVE_SIGNAL": {
+      "precision": 0.5652,
+      "recall": 0.7647,
+      "f1": 0.65,
+      "support": 17,
+      "tp": 13,
+      "fp": 10,
+      "fn": 4
+    },
+    "QUESTION": {
+      "precision": 0.4717,
+      "recall": 1.0,
+      "f1": 0.641,
+      "support": 25,
+      "tp": 25,
+      "fp": 28,
+      "fn": 0
+    }
+  },
+  "exact_match_ratio": 0.0351,
+  "confusion_pairs": {
+    "NONE->UNCERTAINTY": 36,
+    "NONE->QUESTION": 28,
+    "NONE->OBJECTION": 18,
+    "NONE->POSITIVE_SIGNAL": 10,
+    "NONE->NEXT_STEP": 10,
+    "POSITIVE_SIGNAL->NONE": 4,
+    "NEXT_STEP->NONE": 2
+  },
+  "counts": {
+    "total_utterances": 57,
+    "no_event_utterances": 0,
+    "gold_utterances_with_labels": 57,
+    "pred_utterances_with_labels": 57
+  },
+  "recall_at_k": null,
+  "timing_ms": {
+    "total": 34216
+  },
+  "approaches": {
+    "task1": "nli_zeroshot",
+    "task2": "baseline"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "micro": {
+    "precision": 0.8469,
+    "recall": 0.883,
+    "f1": 0.8646,
+    "tp": 83,
+    "fp": 15,
+    "fn": 11
+  },
+  "macro_f1": 0.8436,
+  "per_class": {
+    "OBJECTION": {
+      "precision": 0.5455,
+      "recall": 0.75,
+      "f1": 0.6316,
+      "support": 8,
+      "tp": 6,
+      "fp": 5,
+      "fn": 2
+    },
+    "NEXT_STEP": {
+      "precision": 0.8438,
+      "recall": 0.871,
+      "f1": 0.8571,
+      "support": 31,
+      "tp": 27,
+      "fp": 5,
+      "fn": 4
+    },
+    "UNCERTAINTY": {
+      "precision": 0.7778,
+      "recall": 0.9333,
+      "f1": 0.8485,
+      "support": 15,
+      "tp": 14,
+      "fp": 4,
+      "fn": 1
+    },
+    "POSITIVE_SIGNAL": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.9677,
+      "support": 15,
+      "tp": 15,
+      "fp": 1,
+      "fn": 0
+    },
+    "QUESTION": {
+      "precision": 1.0,
+      "recall": 0.84,
+      "f1": 0.913,
+      "support": 25,
+      "tp": 21,
+      "fp": 0,
+      "fn": 4
+    }
+  },
+  "exact_match_ratio": 0.7241,
+  "confusion_pairs": {
+    "NONE->OBJECTION": 5,
+    "NONE->NEXT_STEP": 5,
+    "NEXT_STEP->NONE": 4,
+    "QUESTION->NONE": 4,
+    "NONE->UNCERTAINTY": 4,
+    "OBJECTION->NONE": 2,
+    "UNCERTAINTY->NONE": 1,
+    "NONE->POSITIVE_SIGNAL": 1
+  },
+  "counts": {
+    "total_utterances": 58,
+    "no_event_utterances": 1,
+    "gold_utterances_with_labels": 57,
+    "pred_utterances_with_labels": 57
+  },
+  "retrieval": {
+    "recall_at_k": 0.9518,
+    "mrr_at_k": 0.757,
+    "tp_events_evaluated": 83,
+    "hits": 79,
+    "per_class": {
+      "OBJECTION": {
+        "recall_at_k": 0.8333,
+        "mrr_at_k": 0.4444,
+        "tp_events": 6,
+        "hits": 5
+      },
+      "NEXT_STEP": {
+        "recall_at_k": 0.8889,
+        "mrr_at_k": 0.6481,
+        "tp_events": 27,
+        "hits": 24
+      },
+      "UNCERTAINTY": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8929,
+        "tp_events": 14,
+        "hits": 14
+      },
+      "POSITIVE_SIGNAL": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8556,
+        "tp_events": 15,
+        "hits": 15
+      },
+      "QUESTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.8254,
+        "tp_events": 21,
+        "hits": 21
+      }
+    }
+  },
+  "timing_ms": {
+    "total": 4099
+  },
+  "approaches": {
+    "task1": "sbert_mlp",
+    "task2": "baseline"
+  }
+}

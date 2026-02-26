@@ -1,0 +1,3172 @@
+[
+  {
+    "text": "How about we go out tonight?",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9986050128936768,
+      "POSITIVE_SIGNAL": 0.9962690472602844,
+      "QUESTION": 0.9956925511360168,
+      "UNCERTAINTY": 0.981894314289093,
+      "OBJECTION": 0.23293457925319672
+    }
+  },
+  {
+    "text": "I am not sure, I am tired.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9996740221977234,
+      "QUESTION": 0.9973196983337402,
+      "OBJECTION": 0.9940938353538513,
+      "NEXT_STEP": 0.46244552731513977,
+      "POSITIVE_SIGNAL": 0.027298765257000923
+    }
+  },
+  {
+    "text": "Hey, do you have a minute to chat?",
+    "gold": [],
+    "scores": {
+      "QUESTION": 0.9970455169677734,
+      "UNCERTAINTY": 0.957887589931488,
+      "POSITIVE_SIGNAL": 0.9556443095207214,
+      "NEXT_STEP": 0.9043817520141602,
+      "OBJECTION": 0.02190711721777916
+    }
+  },
+  {
+    "text": "Sure, what's up?",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9992155432701111,
+      "UNCERTAINTY": 0.9969198107719421,
+      "POSITIVE_SIGNAL": 0.9956258535385132,
+      "NEXT_STEP": 0.9891407489776611,
+      "OBJECTION": 0.7779453992843628
+    }
+  },
+  {
+    "text": "Could we move our meeting to tomorrow morning?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9971413612365723,
+      "NEXT_STEP": 0.995989203453064,
+      "UNCERTAINTY": 0.9957325458526611,
+      "OBJECTION": 0.9702746272087097,
+      "POSITIVE_SIGNAL": 0.9251483678817749
+    }
+  },
+  {
+    "text": "I am not sure, my morning is packed.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9995834231376648,
+      "QUESTION": 0.9979010820388794,
+      "OBJECTION": 0.975254476070404,
+      "NEXT_STEP": 0.7180966734886169,
+      "POSITIVE_SIGNAL": 0.5400344133377075
+    }
+  },
+  {
+    "text": "What time works better for you?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9984622597694397,
+      "UNCERTAINTY": 0.9772307276725769,
+      "NEXT_STEP": 0.7562312483787537,
+      "POSITIVE_SIGNAL": 0.7166846990585327,
+      "OBJECTION": 0.6773442029953003
+    }
+  },
+  {
+    "text": "Maybe late afternoon, around four.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9919974207878113,
+      "QUESTION": 0.9811719059944153,
+      "NEXT_STEP": 0.9593493342399597,
+      "OBJECTION": 0.9337413907051086,
+      "POSITIVE_SIGNAL": 0.9294453263282776
+    }
+  },
+  {
+    "text": "Great, let's do four then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9992251396179199,
+      "POSITIVE_SIGNAL": 0.9989365339279175,
+      "QUESTION": 0.9814630150794983,
+      "UNCERTAINTY": 0.9805996417999268,
+      "OBJECTION": 0.9339776039123535
+    }
+  },
+  {
+    "text": "I tried calling earlier but got no answer.",
+    "gold": [],
+    "scores": {
+      "UNCERTAINTY": 0.9977617859840393,
+      "QUESTION": 0.9970033168792725,
+      "OBJECTION": 0.9951605796813965,
+      "NEXT_STEP": 0.9343239068984985,
+      "POSITIVE_SIGNAL": 0.28404802083969116
+    }
+  },
+  {
+    "text": "Sorry about that, I was in transit.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9958541989326477,
+      "OBJECTION": 0.8938018083572388,
+      "QUESTION": 0.8402701616287231,
+      "NEXT_STEP": 0.7554337382316589,
+      "POSITIVE_SIGNAL": 0.060365717858076096
+    }
+  },
+  {
+    "text": "Can we talk now for five minutes?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9972516298294067,
+      "UNCERTAINTY": 0.9936213493347168,
+      "NEXT_STEP": 0.9847354888916016,
+      "POSITIVE_SIGNAL": 0.9716086983680725,
+      "OBJECTION": 0.7906708717346191
+    }
+  },
+  {
+    "text": "Yes, go ahead.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9984875917434692,
+      "NEXT_STEP": 0.997843325138092,
+      "QUESTION": 0.9875456690788269,
+      "UNCERTAINTY": 0.7248020768165588,
+      "OBJECTION": 0.06850378215312958
+    }
+  },
+  {
+    "text": "I think we should finalize the plan today.",
+    "gold": [
+      "NEXT_STEP",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9988190531730652,
+      "POSITIVE_SIGNAL": 0.9955235123634338,
+      "QUESTION": 0.9668479561805725,
+      "UNCERTAINTY": 0.965762734413147,
+      "OBJECTION": 0.4796046018600464
+    }
+  },
+  {
+    "text": "I disagree, we are missing a few details.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9986927509307861,
+      "QUESTION": 0.998238205909729,
+      "OBJECTION": 0.9970114827156067,
+      "NEXT_STEP": 0.9312751293182373,
+      "POSITIVE_SIGNAL": 0.004138696938753128
+    }
+  },
+  {
+    "text": "What details are still unclear?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9984449744224548,
+      "UNCERTAINTY": 0.9930557012557983,
+      "OBJECTION": 0.6022623777389526,
+      "NEXT_STEP": 0.05313275381922722,
+      "POSITIVE_SIGNAL": 0.0010630616452544928
+    }
+  },
+  {
+    "text": "Maybe the timeline and who owns which part.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9985260963439941,
+      "UNCERTAINTY": 0.9919624328613281,
+      "NEXT_STEP": 0.8359792828559875,
+      "OBJECTION": 0.7652398347854614,
+      "POSITIVE_SIGNAL": 0.06670865416526794
+    }
+  },
+  {
+    "text": "Do you want to grab lunch together?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.996891438961029,
+      "NEXT_STEP": 0.9964427351951599,
+      "UNCERTAINTY": 0.98350989818573,
+      "POSITIVE_SIGNAL": 0.9801872372627258,
+      "OBJECTION": 0.10034963488578796
+    }
+  },
+  {
+    "text": "That sounds nice.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9989508390426636,
+      "NEXT_STEP": 0.987118661403656,
+      "QUESTION": 0.9622897505760193,
+      "UNCERTAINTY": 0.8200898170471191,
+      "OBJECTION": 0.29018694162368774
+    }
+  },
+  {
+    "text": "How about the place near the park?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9981777667999268,
+      "NEXT_STEP": 0.9978178143501282,
+      "UNCERTAINTY": 0.9962478876113892,
+      "POSITIVE_SIGNAL": 0.9900509715080261,
+      "OBJECTION": 0.9419177174568176
+    }
+  },
+  {
+    "text": "I would rather not, it is usually crowded.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9983927607536316,
+      "UNCERTAINTY": 0.9982625246047974,
+      "QUESTION": 0.977681577205658,
+      "NEXT_STEP": 0.9537588357925415,
+      "POSITIVE_SIGNAL": 0.31844082474708557
+    }
+  },
+  {
+    "text": "Okay, what do you prefer?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9981407523155212,
+      "POSITIVE_SIGNAL": 0.9885433912277222,
+      "NEXT_STEP": 0.9647194147109985,
+      "UNCERTAINTY": 0.9361268877983093,
+      "OBJECTION": 0.38761386275291443
+    }
+  },
+  {
+    "text": "Maybe somewhere quieter on the side street.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.996708869934082,
+      "QUESTION": 0.9933619499206543,
+      "OBJECTION": 0.991209089756012,
+      "NEXT_STEP": 0.983809232711792,
+      "POSITIVE_SIGNAL": 0.24680955708026886
+    }
+  },
+  {
+    "text": "Perfect, let's try that.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9990014433860779,
+      "POSITIVE_SIGNAL": 0.9989932179450989,
+      "QUESTION": 0.9914470314979553,
+      "UNCERTAINTY": 0.8764297366142273,
+      "OBJECTION": 0.5200848579406738
+    }
+  },
+  {
+    "text": "I sent you the draft yesterday.",
+    "gold": [],
+    "scores": {
+      "NEXT_STEP": 0.9955717325210571,
+      "UNCERTAINTY": 0.9921241402626038,
+      "QUESTION": 0.9854163527488708,
+      "POSITIVE_SIGNAL": 0.9575695991516113,
+      "OBJECTION": 0.9392670392990112
+    }
+  },
+  {
+    "text": "Yes, I saw it.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9958986639976501,
+      "NEXT_STEP": 0.9873118996620178,
+      "QUESTION": 0.9845343828201294,
+      "OBJECTION": 0.9744341373443604,
+      "UNCERTAINTY": 0.9651918411254883
+    }
+  },
+  {
+    "text": "Can you review section two today?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9978698492050171,
+      "UNCERTAINTY": 0.9939646124839783,
+      "NEXT_STEP": 0.9903432726860046,
+      "POSITIVE_SIGNAL": 0.9617800712585449,
+      "OBJECTION": 0.8878822326660156
+    }
+  },
+  {
+    "text": "I can't today, I have deadlines.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.997857391834259,
+      "UNCERTAINTY": 0.9966025948524475,
+      "QUESTION": 0.9446776509284973,
+      "NEXT_STEP": 0.8924592137336731,
+      "POSITIVE_SIGNAL": 0.050265297293663025
+    }
+  },
+  {
+    "text": "When could you take a look?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9974257349967957,
+      "UNCERTAINTY": 0.9913290739059448,
+      "NEXT_STEP": 0.9814798831939697,
+      "POSITIVE_SIGNAL": 0.9424245357513428,
+      "OBJECTION": 0.9319528937339783
+    }
+  },
+  {
+    "text": "Maybe tomorrow evening.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9975865483283997,
+      "NEXT_STEP": 0.9955387711524963,
+      "QUESTION": 0.9886594414710999,
+      "OBJECTION": 0.9827156066894531,
+      "POSITIVE_SIGNAL": 0.9562921524047852
+    }
+  },
+  {
+    "text": "Alright, tomorrow evening works.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9978669881820679,
+      "NEXT_STEP": 0.9965956807136536,
+      "UNCERTAINTY": 0.993492603302002,
+      "QUESTION": 0.9854797124862671,
+      "OBJECTION": 0.9526592493057251
+    }
+  },
+  {
+    "text": "Are we still on for the call at 3?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9987358450889587,
+      "UNCERTAINTY": 0.9978751540184021,
+      "NEXT_STEP": 0.9834908246994019,
+      "POSITIVE_SIGNAL": 0.9652996063232422,
+      "OBJECTION": 0.9411072134971619
+    }
+  },
+  {
+    "text": "Yes, I will be there.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9986377358436584,
+      "POSITIVE_SIGNAL": 0.9981020092964172,
+      "QUESTION": 0.9685938358306885,
+      "UNCERTAINTY": 0.8935127854347229,
+      "OBJECTION": 0.39822447299957275
+    }
+  },
+  {
+    "text": "Could you also share the notes beforehand?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9968594908714294,
+      "UNCERTAINTY": 0.9897568821907043,
+      "NEXT_STEP": 0.9726273417472839,
+      "POSITIVE_SIGNAL": 0.8328534960746765,
+      "OBJECTION": 0.7956786155700684
+    }
+  },
+  {
+    "text": "Not sure I will have time to clean them up.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9992832541465759,
+      "OBJECTION": 0.9894599914550781,
+      "QUESTION": 0.9736892580986023,
+      "NEXT_STEP": 0.8983851075172424,
+      "POSITIVE_SIGNAL": 0.46221986413002014
+    }
+  },
+  {
+    "text": "No worries, even rough notes are fine.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9820918440818787,
+      "QUESTION": 0.8657066822052002,
+      "NEXT_STEP": 0.8302605748176575,
+      "UNCERTAINTY": 0.5420038104057312,
+      "OBJECTION": 0.3357841968536377
+    }
+  },
+  {
+    "text": "Okay, I can send what I have.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9957539439201355,
+      "POSITIVE_SIGNAL": 0.9950740933418274,
+      "QUESTION": 0.986894428730011,
+      "UNCERTAINTY": 0.9765358567237854,
+      "OBJECTION": 0.6666340827941895
+    }
+  },
+  {
+    "text": "I think we should change the approach.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9978981614112854,
+      "OBJECTION": 0.9967774748802185,
+      "NEXT_STEP": 0.9961181879043579,
+      "QUESTION": 0.9580752849578857,
+      "POSITIVE_SIGNAL": 0.7075337767601013
+    }
+  },
+  {
+    "text": "Why do you think that?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9994112253189087,
+      "UNCERTAINTY": 0.995803952217102,
+      "OBJECTION": 0.9401641488075256,
+      "NEXT_STEP": 0.7407793402671814,
+      "POSITIVE_SIGNAL": 0.061234574764966965
+    }
+  },
+  {
+    "text": "The current plan might be too risky.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9987269639968872,
+      "NEXT_STEP": 0.9936203360557556,
+      "OBJECTION": 0.9934748411178589,
+      "QUESTION": 0.9803147912025452,
+      "POSITIVE_SIGNAL": 0.06752613931894302
+    }
+  },
+  {
+    "text": "I don't agree, it is manageable.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9987590909004211,
+      "OBJECTION": 0.9969296455383301,
+      "QUESTION": 0.971451997756958,
+      "NEXT_STEP": 0.9443901777267456,
+      "POSITIVE_SIGNAL": 0.21395759284496307
+    }
+  },
+  {
+    "text": "What if we do a smaller pilot first?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9987241625785828,
+      "UNCERTAINTY": 0.9984793066978455,
+      "NEXT_STEP": 0.9980010390281677,
+      "OBJECTION": 0.9922593832015991,
+      "POSITIVE_SIGNAL": 0.963187575340271
+    }
+  },
+  {
+    "text": "That sounds reasonable.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9967759251594543,
+      "QUESTION": 0.9813806414604187,
+      "NEXT_STEP": 0.9793590307235718,
+      "UNCERTAINTY": 0.730922281742096,
+      "OBJECTION": 0.32717081904411316
+    }
+  },
+  {
+    "text": "Great, let's set up a pilot next week.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9993554353713989,
+      "POSITIVE_SIGNAL": 0.9987627863883972,
+      "QUESTION": 0.9934938549995422,
+      "UNCERTAINTY": 0.9856911301612854,
+      "OBJECTION": 0.8840881586074829
+    }
+  },
+  {
+    "text": "Can you help me with this issue?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.99871426820755,
+      "UNCERTAINTY": 0.9913799166679382,
+      "NEXT_STEP": 0.9461994171142578,
+      "OBJECTION": 0.6464951038360596,
+      "POSITIVE_SIGNAL": 0.13546845316886902
+    }
+  },
+  {
+    "text": "Sure, what happened?",
+    "gold": [
+      "QUESTION",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.999202311038971,
+      "UNCERTAINTY": 0.9966192245483398,
+      "POSITIVE_SIGNAL": 0.9647189378738403,
+      "OBJECTION": 0.944607675075531,
+      "NEXT_STEP": 0.8611011505126953
+    }
+  },
+  {
+    "text": "The app keeps crashing when I open it.",
+    "gold": [],
+    "scores": {
+      "UNCERTAINTY": 0.9959487915039062,
+      "OBJECTION": 0.9864770770072937,
+      "QUESTION": 0.9794943928718567,
+      "NEXT_STEP": 0.950255811214447,
+      "POSITIVE_SIGNAL": 0.4418720602989197
+    }
+  },
+  {
+    "text": "Could you share the exact error message?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9973073601722717,
+      "UNCERTAINTY": 0.990312397480011,
+      "OBJECTION": 0.8508315086364746,
+      "NEXT_STEP": 0.1688767820596695,
+      "POSITIVE_SIGNAL": 0.0011628149077296257
+    }
+  },
+  {
+    "text": "I am not sure where to find it.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.998832643032074,
+      "QUESTION": 0.9987204074859619,
+      "OBJECTION": 0.9870163798332214,
+      "NEXT_STEP": 0.9149551391601562,
+      "POSITIVE_SIGNAL": 0.6587109565734863
+    }
+  },
+  {
+    "text": "Let's check the logs together.",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9968158602714539,
+      "POSITIVE_SIGNAL": 0.9942485094070435,
+      "UNCERTAINTY": 0.9915064573287964,
+      "NEXT_STEP": 0.9854941368103027,
+      "OBJECTION": 0.8197818994522095
+    }
+  },
+  {
+    "text": "Okay, thanks.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9985443353652954,
+      "UNCERTAINTY": 0.9873759746551514,
+      "NEXT_STEP": 0.977742075920105,
+      "QUESTION": 0.9649002552032471,
+      "OBJECTION": 0.7822268009185791
+    }
+  },
+  {
+    "text": "Do we need to invite Alex to the meeting?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9984708428382874,
+      "QUESTION": 0.9979481101036072,
+      "NEXT_STEP": 0.9974273443222046,
+      "OBJECTION": 0.9808681011199951,
+      "POSITIVE_SIGNAL": 0.942793071269989
+    }
+  },
+  {
+    "text": "Maybe, I am not sure if it concerns him.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9989771842956543,
+      "QUESTION": 0.998572051525116,
+      "OBJECTION": 0.9460322856903076,
+      "NEXT_STEP": 0.9319602251052856,
+      "POSITIVE_SIGNAL": 0.1461971551179886
+    }
+  },
+  {
+    "text": "I think he should be included.",
+    "gold": [
+      "NEXT_STEP",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9955303072929382,
+      "UNCERTAINTY": 0.9891336560249329,
+      "QUESTION": 0.9889679551124573,
+      "NEXT_STEP": 0.9876662492752075,
+      "OBJECTION": 0.9059453010559082
+    }
+  },
+  {
+    "text": "I would rather not, he tends to derail discussions.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9990754723548889,
+      "UNCERTAINTY": 0.9987976551055908,
+      "NEXT_STEP": 0.9699320793151855,
+      "QUESTION": 0.9264251589775085,
+      "POSITIVE_SIGNAL": 0.06580806523561478
+    }
+  },
+  {
+    "text": "What if we invite him only for the last ten minutes?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9983090162277222,
+      "QUESTION": 0.9974358081817627,
+      "NEXT_STEP": 0.9971705675125122,
+      "OBJECTION": 0.9806806445121765,
+      "POSITIVE_SIGNAL": 0.9714651703834534
+    }
+  },
+  {
+    "text": "That could work.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9974526762962341,
+      "POSITIVE_SIGNAL": 0.9939473271369934,
+      "UNCERTAINTY": 0.9823404550552368,
+      "QUESTION": 0.977342963218689,
+      "OBJECTION": 0.9598010182380676
+    }
+  },
+  {
+    "text": "Alright, let's do that.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9992661476135254,
+      "POSITIVE_SIGNAL": 0.9991634488105774,
+      "QUESTION": 0.9689253568649292,
+      "UNCERTAINTY": 0.8151182532310486,
+      "OBJECTION": 0.0511217936873436
+    }
+  },
+  {
+    "text": "Can we ship this today?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9976757168769836,
+      "QUESTION": 0.9971252083778381,
+      "UNCERTAINTY": 0.9967069029808044,
+      "POSITIVE_SIGNAL": 0.9784049987792969,
+      "OBJECTION": 0.7315014600753784
+    }
+  },
+  {
+    "text": "Not really, we still have failing tests.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9983767867088318,
+      "OBJECTION": 0.995585024356842,
+      "QUESTION": 0.9791733026504517,
+      "NEXT_STEP": 0.6534600853919983,
+      "POSITIVE_SIGNAL": 0.021044911816716194
+    }
+  },
+  {
+    "text": "How many tests are failing?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9991093277931213,
+      "UNCERTAINTY": 0.996003270149231,
+      "OBJECTION": 0.9575648903846741,
+      "NEXT_STEP": 0.41243037581443787,
+      "POSITIVE_SIGNAL": 0.0013998321956023574
+    }
+  },
+  {
+    "text": "Maybe five or six, I need to confirm.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9985326528549194,
+      "UNCERTAINTY": 0.9840113520622253,
+      "NEXT_STEP": 0.9780960083007812,
+      "POSITIVE_SIGNAL": 0.9261015057563782,
+      "OBJECTION": 0.7519347667694092
+    }
+  },
+  {
+    "text": "Let's fix the top two first.",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9987792372703552,
+      "UNCERTAINTY": 0.9969561696052551,
+      "QUESTION": 0.9947448968887329,
+      "OBJECTION": 0.9916055202484131,
+      "POSITIVE_SIGNAL": 0.9677246809005737
+    }
+  },
+  {
+    "text": "Okay, I will start now.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9986649751663208,
+      "POSITIVE_SIGNAL": 0.9939481616020203,
+      "QUESTION": 0.9741505980491638,
+      "UNCERTAINTY": 0.9713262319564819,
+      "OBJECTION": 0.8923430442810059
+    }
+  },
+  {
+    "text": "Would you like to join the workshop next week?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9974817037582397,
+      "NEXT_STEP": 0.9945942163467407,
+      "POSITIVE_SIGNAL": 0.9876932501792908,
+      "UNCERTAINTY": 0.9808169007301331,
+      "OBJECTION": 0.5541042685508728
+    }
+  },
+  {
+    "text": "Yes, that sounds great.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9993718266487122,
+      "NEXT_STEP": 0.9981015920639038,
+      "QUESTION": 0.975271999835968,
+      "UNCERTAINTY": 0.3244721293449402,
+      "OBJECTION": 0.1615648865699768
+    }
+  },
+  {
+    "text": "Can you confirm your availability by Friday?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.997389018535614,
+      "NEXT_STEP": 0.9950997829437256,
+      "UNCERTAINTY": 0.9933263659477234,
+      "POSITIVE_SIGNAL": 0.9616441130638123,
+      "OBJECTION": 0.4249156713485718
+    }
+  },
+  {
+    "text": "I am not sure yet, I might be traveling.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9993848204612732,
+      "QUESTION": 0.9978348612785339,
+      "OBJECTION": 0.9710924625396729,
+      "NEXT_STEP": 0.7674424648284912,
+      "POSITIVE_SIGNAL": 0.5385462045669556
+    }
+  },
+  {
+    "text": "Okay, let me know as soon as you can.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9970224499702454,
+      "NEXT_STEP": 0.9961580038070679,
+      "UNCERTAINTY": 0.9954336881637573,
+      "POSITIVE_SIGNAL": 0.9915477633476257,
+      "OBJECTION": 0.9714823365211487
+    }
+  },
+  {
+    "text": "Could you send me the document link?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9975953102111816,
+      "UNCERTAINTY": 0.9918988347053528,
+      "NEXT_STEP": 0.9582325220108032,
+      "OBJECTION": 0.8815420866012573,
+      "POSITIVE_SIGNAL": 0.86961829662323
+    }
+  },
+  {
+    "text": "Sure, I will send it now.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9988270401954651,
+      "POSITIVE_SIGNAL": 0.9969560503959656,
+      "QUESTION": 0.987354040145874,
+      "UNCERTAINTY": 0.9801759719848633,
+      "OBJECTION": 0.8657704591751099
+    }
+  },
+  {
+    "text": "Thanks, is it the latest version?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9985262751579285,
+      "UNCERTAINTY": 0.995551347732544,
+      "POSITIVE_SIGNAL": 0.9897826910018921,
+      "NEXT_STEP": 0.986765444278717,
+      "OBJECTION": 0.09798895567655563
+    }
+  },
+  {
+    "text": "I think so, but I am not completely sure.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9993813037872314,
+      "QUESTION": 0.9980888366699219,
+      "OBJECTION": 0.9923273324966431,
+      "NEXT_STEP": 0.9769863486289978,
+      "POSITIVE_SIGNAL": 0.9567039608955383
+    }
+  },
+  {
+    "text": "Okay, let's double check together.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9966087937355042,
+      "UNCERTAINTY": 0.995411217212677,
+      "NEXT_STEP": 0.986851155757904,
+      "POSITIVE_SIGNAL": 0.9790458679199219,
+      "OBJECTION": 0.7882516384124756
+    }
+  },
+  {
+    "text": "How about we start the call in ten minutes?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9984481930732727,
+      "QUESTION": 0.9952428936958313,
+      "POSITIVE_SIGNAL": 0.9909619092941284,
+      "UNCERTAINTY": 0.9878806471824646,
+      "OBJECTION": 0.7143585681915283
+    }
+  },
+  {
+    "text": "I can't, I am on another call.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9977256059646606,
+      "OBJECTION": 0.9974681735038757,
+      "QUESTION": 0.6929656863212585,
+      "NEXT_STEP": 0.07087118178606033,
+      "POSITIVE_SIGNAL": 0.01654142513871193
+    }
+  },
+  {
+    "text": "When are you free?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.998638391494751,
+      "UNCERTAINTY": 0.9926385283470154,
+      "OBJECTION": 0.9795838594436646,
+      "NEXT_STEP": 0.9437201023101807,
+      "POSITIVE_SIGNAL": 0.7361106276512146
+    }
+  },
+  {
+    "text": "Maybe in half an hour.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9973301291465759,
+      "QUESTION": 0.992460310459137,
+      "NEXT_STEP": 0.9886105060577393,
+      "OBJECTION": 0.9861860275268555,
+      "POSITIVE_SIGNAL": 0.9383321404457092
+    }
+  },
+  {
+    "text": "Great, let's do it then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.999478816986084,
+      "POSITIVE_SIGNAL": 0.9994661211967468,
+      "QUESTION": 0.9459890723228455,
+      "UNCERTAINTY": 0.3179253339767456,
+      "OBJECTION": 0.027408476918935776
+    }
+  },
+  {
+    "text": "Do you agree with the summary I sent?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9980523586273193,
+      "POSITIVE_SIGNAL": 0.9920849204063416,
+      "NEXT_STEP": 0.9474470019340515,
+      "UNCERTAINTY": 0.7268392443656921,
+      "OBJECTION": 0.012881046161055565
+    }
+  },
+  {
+    "text": "Yes, it looks accurate.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9892712831497192,
+      "NEXT_STEP": 0.9737147688865662,
+      "QUESTION": 0.9525788426399231,
+      "OBJECTION": 0.24270185828208923,
+      "UNCERTAINTY": 0.05195039510726929
+    }
+  },
+  {
+    "text": "Should we add a note about risks?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9970035552978516,
+      "UNCERTAINTY": 0.9960534572601318,
+      "NEXT_STEP": 0.9476217031478882,
+      "OBJECTION": 0.670121431350708,
+      "POSITIVE_SIGNAL": 0.0013490855926647782
+    }
+  },
+  {
+    "text": "Maybe, I am not sure it is necessary.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9996394515037537,
+      "OBJECTION": 0.9987109899520874,
+      "QUESTION": 0.99788498878479,
+      "NEXT_STEP": 0.989985466003418,
+      "POSITIVE_SIGNAL": 0.493972510099411
+    }
+  },
+  {
+    "text": "I think it is important to be explicit.",
+    "gold": [
+      "NEXT_STEP",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9966232180595398,
+      "QUESTION": 0.9805617332458496,
+      "OBJECTION": 0.977608323097229,
+      "POSITIVE_SIGNAL": 0.9119465351104736,
+      "UNCERTAINTY": 0.0019226506119593978
+    }
+  },
+  {
+    "text": "Okay, add a short section then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9930114150047302,
+      "NEXT_STEP": 0.9766202569007874,
+      "POSITIVE_SIGNAL": 0.9733035564422607,
+      "QUESTION": 0.9683079123497009,
+      "OBJECTION": 0.9141377210617065
+    }
+  },
+  {
+    "text": "Can you take ownership of this task?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.997065007686615,
+      "NEXT_STEP": 0.9917815327644348,
+      "UNCERTAINTY": 0.9818068742752075,
+      "OBJECTION": 0.888088583946228,
+      "POSITIVE_SIGNAL": 0.5504993796348572
+    }
+  },
+  {
+    "text": "I would rather not, I am overloaded.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9986835718154907,
+      "UNCERTAINTY": 0.9971044063568115,
+      "QUESTION": 0.9044769406318665,
+      "NEXT_STEP": 0.838011622428894,
+      "POSITIVE_SIGNAL": 0.006614475045353174
+    }
+  },
+  {
+    "text": "What if we split it into two smaller parts?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9984606504440308,
+      "UNCERTAINTY": 0.9964475035667419,
+      "NEXT_STEP": 0.9915982484817505,
+      "OBJECTION": 0.9761112332344055,
+      "POSITIVE_SIGNAL": 0.8194755911827087
+    }
+  },
+  {
+    "text": "That might work.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9981261491775513,
+      "UNCERTAINTY": 0.9953645467758179,
+      "POSITIVE_SIGNAL": 0.9901849627494812,
+      "OBJECTION": 0.983918309211731,
+      "QUESTION": 0.9801803827285767
+    }
+  },
+  {
+    "text": "Great, let's do part one this week.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9989429116249084,
+      "POSITIVE_SIGNAL": 0.9984311461448669,
+      "QUESTION": 0.9959100484848022,
+      "UNCERTAINTY": 0.9874929785728455,
+      "OBJECTION": 0.8826099038124084
+    }
+  },
+  {
+    "text": "Do you want to watch a movie tonight?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9975978136062622,
+      "NEXT_STEP": 0.995007336139679,
+      "POSITIVE_SIGNAL": 0.9889931678771973,
+      "UNCERTAINTY": 0.9888096451759338,
+      "OBJECTION": 0.5122479200363159
+    }
+  },
+  {
+    "text": "Sure, I would love to.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9990595579147339,
+      "NEXT_STEP": 0.9973542094230652,
+      "QUESTION": 0.9749417901039124,
+      "UNCERTAINTY": 0.9104819893836975,
+      "OBJECTION": 0.19344857335090637
+    }
+  },
+  {
+    "text": "Which genre do you prefer?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9990247488021851,
+      "UNCERTAINTY": 0.9151166081428528,
+      "NEXT_STEP": 0.5068566203117371,
+      "POSITIVE_SIGNAL": 0.4048752188682556,
+      "OBJECTION": 0.06487512588500977
+    }
+  },
+  {
+    "text": "Maybe a comedy, I guess.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9863384366035461,
+      "OBJECTION": 0.9354233145713806,
+      "QUESTION": 0.8951048851013184,
+      "POSITIVE_SIGNAL": 0.8084269762039185,
+      "NEXT_STEP": 0.7913864254951477
+    }
+  },
+  {
+    "text": "Okay, let's pick a comedy then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9948789477348328,
+      "POSITIVE_SIGNAL": 0.994828462600708,
+      "OBJECTION": 0.9600656628608704,
+      "QUESTION": 0.9558308720588684,
+      "NEXT_STEP": 0.9529739022254944
+    }
+  },
+  {
+    "text": "Could we reduce the scope for this week?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.99798983335495,
+      "QUESTION": 0.9963975548744202,
+      "OBJECTION": 0.9914811849594116,
+      "NEXT_STEP": 0.9407649040222168,
+      "POSITIVE_SIGNAL": 0.40076199173927307
+    }
+  },
+  {
+    "text": "No, we promised too much already.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.998603880405426,
+      "NEXT_STEP": 0.9981203079223633,
+      "UNCERTAINTY": 0.9955531358718872,
+      "QUESTION": 0.6396341323852539,
+      "POSITIVE_SIGNAL": 0.06891124695539474
+    }
+  },
+  {
+    "text": "I am worried we will miss the deadline.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9989429116249084,
+      "QUESTION": 0.9931882619857788,
+      "OBJECTION": 0.9802234768867493,
+      "NEXT_STEP": 0.9743754267692566,
+      "POSITIVE_SIGNAL": 0.0059920018538832664
+    }
+  },
+  {
+    "text": "What if we drop only the optional items?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9982472062110901,
+      "UNCERTAINTY": 0.996966540813446,
+      "OBJECTION": 0.9905951023101807,
+      "NEXT_STEP": 0.7811009287834167,
+      "POSITIVE_SIGNAL": 0.34503012895584106
+    }
+  },
+  {
+    "text": "That sounds fine.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.999138593673706,
+      "NEXT_STEP": 0.9876824021339417,
+      "QUESTION": 0.9626217484474182,
+      "UNCERTAINTY": 0.704543948173523,
+      "OBJECTION": 0.5529188513755798
+    }
+  },
+  {
+    "text": "Great, let's do that and communicate it.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9992207288742065,
+      "POSITIVE_SIGNAL": 0.9991523623466492,
+      "QUESTION": 0.9870368242263794,
+      "UNCERTAINTY": 0.4873243570327759,
+      "OBJECTION": 0.4320177435874939
+    }
+  },
+  {
+    "text": "Can you join the quick sync?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9969316720962524,
+      "NEXT_STEP": 0.9956532716751099,
+      "POSITIVE_SIGNAL": 0.9949160218238831,
+      "UNCERTAINTY": 0.9568289518356323,
+      "OBJECTION": 0.6073369979858398
+    }
+  },
+  {
+    "text": "Okay, give me two minutes.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9970368146896362,
+      "QUESTION": 0.9929364919662476,
+      "OBJECTION": 0.9910330176353455,
+      "NEXT_STEP": 0.9877090454101562,
+      "POSITIVE_SIGNAL": 0.9769339561462402
+    }
+  },
+  {
+    "text": "Do we have an agenda?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9985610842704773,
+      "NEXT_STEP": 0.9980947375297546,
+      "UNCERTAINTY": 0.9935771822929382,
+      "OBJECTION": 0.25030893087387085,
+      "POSITIVE_SIGNAL": 0.015520734712481499
+    }
+  },
+  {
+    "text": "Not sure yet, but we can decide on the call.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.999256432056427,
+      "QUESTION": 0.9968820214271545,
+      "NEXT_STEP": 0.9841529130935669,
+      "OBJECTION": 0.976506769657135,
+      "POSITIVE_SIGNAL": 0.8327616453170776
+    }
+  },
+  {
+    "text": "Alright, see you soon.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9973820447921753,
+      "UNCERTAINTY": 0.993546724319458,
+      "NEXT_STEP": 0.99210524559021,
+      "QUESTION": 0.9858320951461792,
+      "OBJECTION": 0.9464987516403198
+    }
+  },
+  {
+    "text": "Is this the final version?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9989864230155945,
+      "UNCERTAINTY": 0.996407151222229,
+      "NEXT_STEP": 0.8976436257362366,
+      "OBJECTION": 0.535531759262085,
+      "POSITIVE_SIGNAL": 0.079486183822155
+    }
+  },
+  {
+    "text": "I think so, but there might be small edits left.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9964842796325684,
+      "QUESTION": 0.9926996231079102,
+      "POSITIVE_SIGNAL": 0.9904512763023376,
+      "NEXT_STEP": 0.9882113933563232,
+      "OBJECTION": 0.9565932750701904
+    }
+  },
+  {
+    "text": "Could you check the numbers again?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9984655976295471,
+      "UNCERTAINTY": 0.9960038661956787,
+      "OBJECTION": 0.8940405249595642,
+      "NEXT_STEP": 0.722217857837677,
+      "POSITIVE_SIGNAL": 0.2742455005645752
+    }
+  },
+  {
+    "text": "Yes, I will verify them now.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9956417679786682,
+      "NEXT_STEP": 0.9947168231010437,
+      "POSITIVE_SIGNAL": 0.9930033683776855,
+      "UNCERTAINTY": 0.9558491110801697,
+      "OBJECTION": 0.6328474879264832
+    }
+  },
+  {
+    "text": "How about we ask Priya for feedback?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9982873797416687,
+      "NEXT_STEP": 0.9942074418067932,
+      "UNCERTAINTY": 0.9938830733299255,
+      "POSITIVE_SIGNAL": 0.9583633542060852,
+      "OBJECTION": 0.882366955280304
+    }
+  },
+  {
+    "text": "I am not sure she has time.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9990384578704834,
+      "OBJECTION": 0.9950474500656128,
+      "QUESTION": 0.9908279180526733,
+      "NEXT_STEP": 0.9258796572685242,
+      "POSITIVE_SIGNAL": 0.27451157569885254
+    }
+  },
+  {
+    "text": "What if we send only two specific questions?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9964317679405212,
+      "UNCERTAINTY": 0.9918755888938904,
+      "NEXT_STEP": 0.9496393799781799,
+      "OBJECTION": 0.8799528479576111,
+      "POSITIVE_SIGNAL": 0.0809730589389801
+    }
+  },
+  {
+    "text": "Okay, that sounds reasonable.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9981027841567993,
+      "NEXT_STEP": 0.9856269359588623,
+      "QUESTION": 0.98272705078125,
+      "UNCERTAINTY": 0.9177424311637878,
+      "OBJECTION": 0.41007718443870544
+    }
+  },
+  {
+    "text": "Could we postpone the release by a day?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9979832172393799,
+      "QUESTION": 0.9969613552093506,
+      "NEXT_STEP": 0.9941599369049072,
+      "OBJECTION": 0.9918832778930664,
+      "POSITIVE_SIGNAL": 0.8732284307479858
+    }
+  },
+  {
+    "text": "No, the launch date is fixed.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9935521483421326,
+      "QUESTION": 0.9876253008842468,
+      "OBJECTION": 0.969557523727417,
+      "UNCERTAINTY": 0.9448023438453674,
+      "POSITIVE_SIGNAL": 0.9386755228042603
+    }
+  },
+  {
+    "text": "I am not sure we can finish testing in time.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9991859197616577,
+      "OBJECTION": 0.994251012802124,
+      "QUESTION": 0.993596613407135,
+      "NEXT_STEP": 0.9591031670570374,
+      "POSITIVE_SIGNAL": 0.029040278866887093
+    }
+  },
+  {
+    "text": "What is the minimum we need to test?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9988932609558105,
+      "UNCERTAINTY": 0.9891217350959778,
+      "OBJECTION": 0.8803110122680664,
+      "NEXT_STEP": 0.7759298086166382,
+      "POSITIVE_SIGNAL": 0.1118185892701149
+    }
+  },
+  {
+    "text": "Let's prioritize the critical paths.",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9974148869514465,
+      "QUESTION": 0.9889912009239197,
+      "UNCERTAINTY": 0.9665937423706055,
+      "OBJECTION": 0.9621169567108154,
+      "POSITIVE_SIGNAL": 0.8735476732254028
+    }
+  },
+  {
+    "text": "Okay, I will focus on those.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9927730560302734,
+      "QUESTION": 0.9880654811859131,
+      "UNCERTAINTY": 0.9832673668861389,
+      "NEXT_STEP": 0.9768909215927124,
+      "OBJECTION": 0.8782382607460022
+    }
+  },
+  {
+    "text": "Do you want to try the new cafe?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9985484480857849,
+      "NEXT_STEP": 0.9974230527877808,
+      "POSITIVE_SIGNAL": 0.991418182849884,
+      "UNCERTAINTY": 0.9804871082305908,
+      "OBJECTION": 0.21966120600700378
+    }
+  },
+  {
+    "text": "Maybe, I am not sure it is open late.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9994456768035889,
+      "QUESTION": 0.9981076121330261,
+      "OBJECTION": 0.9939417839050293,
+      "NEXT_STEP": 0.9621240496635437,
+      "POSITIVE_SIGNAL": 0.8480137586593628
+    }
+  },
+  {
+    "text": "We can check online and decide.",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9960837960243225,
+      "UNCERTAINTY": 0.967452347278595,
+      "OBJECTION": 0.9618924856185913,
+      "NEXT_STEP": 0.9177654981613159,
+      "POSITIVE_SIGNAL": 0.724382758140564
+    }
+  },
+  {
+    "text": "Sounds good.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9993907809257507,
+      "NEXT_STEP": 0.9936747550964355,
+      "QUESTION": 0.9632120728492737,
+      "UNCERTAINTY": 0.7724181413650513,
+      "OBJECTION": 0.6079108715057373
+    }
+  },
+  {
+    "text": "Shall we go at seven?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9983654618263245,
+      "QUESTION": 0.9959543943405151,
+      "UNCERTAINTY": 0.9943593144416809,
+      "POSITIVE_SIGNAL": 0.9905977845191956,
+      "OBJECTION": 0.808717668056488
+    }
+  },
+  {
+    "text": "Yes, let's go.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9995085000991821,
+      "POSITIVE_SIGNAL": 0.9993566870689392,
+      "QUESTION": 0.9646905064582825,
+      "UNCERTAINTY": 0.39088281989097595,
+      "OBJECTION": 0.008365235291421413
+    }
+  },
+  {
+    "text": "Can you approve the request today?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.996089518070221,
+      "NEXT_STEP": 0.9955428838729858,
+      "POSITIVE_SIGNAL": 0.9855400323867798,
+      "UNCERTAINTY": 0.9837778806686401,
+      "OBJECTION": 0.06974560022354126
+    }
+  },
+  {
+    "text": "I can't, I need more information.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9993427395820618,
+      "UNCERTAINTY": 0.9993354082107544,
+      "QUESTION": 0.9985151290893555,
+      "NEXT_STEP": 0.3213387131690979,
+      "POSITIVE_SIGNAL": 0.0039061761926859617
+    }
+  },
+  {
+    "text": "What information do you need?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9981730580329895,
+      "UNCERTAINTY": 0.9801670908927917,
+      "OBJECTION": 0.17274349927902222,
+      "NEXT_STEP": 0.09473707526922226,
+      "POSITIVE_SIGNAL": 0.03017745539546013
+    }
+  },
+  {
+    "text": "Maybe the cost estimate and the impact.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9973055720329285,
+      "UNCERTAINTY": 0.9815171360969543,
+      "NEXT_STEP": 0.9032465219497681,
+      "OBJECTION": 0.4933130145072937,
+      "POSITIVE_SIGNAL": 0.0036163199692964554
+    }
+  },
+  {
+    "text": "Okay, I will send those details.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9968405961990356,
+      "QUESTION": 0.9947133660316467,
+      "POSITIVE_SIGNAL": 0.9923107028007507,
+      "UNCERTAINTY": 0.9911974668502808,
+      "OBJECTION": 0.8406595587730408
+    }
+  },
+  {
+    "text": "Do you think this will work?",
+    "gold": [
+      "QUESTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9984652996063232,
+      "UNCERTAINTY": 0.9946292638778687,
+      "NEXT_STEP": 0.9871591329574585,
+      "OBJECTION": 0.9622727632522583,
+      "POSITIVE_SIGNAL": 0.6120868921279907
+    }
+  },
+  {
+    "text": "I am not sure, we should test it first.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.99969881772995,
+      "QUESTION": 0.9980844855308533,
+      "OBJECTION": 0.9960232377052307,
+      "NEXT_STEP": 0.7926252484321594,
+      "POSITIVE_SIGNAL": 0.051253218203783035
+    }
+  },
+  {
+    "text": "Alright, let's run a quick test.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.989514946937561,
+      "UNCERTAINTY": 0.9863429665565491,
+      "NEXT_STEP": 0.9741567969322205,
+      "OBJECTION": 0.9492876529693604,
+      "POSITIVE_SIGNAL": 0.9024386405944824
+    }
+  },
+  {
+    "text": "If it fails, we will need a backup plan.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9951908588409424,
+      "QUESTION": 0.9929125308990479,
+      "OBJECTION": 0.9806626439094543,
+      "NEXT_STEP": 0.9774937629699707,
+      "POSITIVE_SIGNAL": 0.1370796412229538
+    }
+  },
+  {
+    "text": "Agreed, we can prepare a fallback.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9897489547729492,
+      "POSITIVE_SIGNAL": 0.9884543418884277,
+      "UNCERTAINTY": 0.9879499673843384,
+      "QUESTION": 0.9870133996009827,
+      "OBJECTION": 0.24589180946350098
+    }
+  },
+  {
+    "text": "Could you pick up the package?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9972419738769531,
+      "UNCERTAINTY": 0.9944502115249634,
+      "NEXT_STEP": 0.9898372888565063,
+      "OBJECTION": 0.9596027731895447,
+      "POSITIVE_SIGNAL": 0.9279136061668396
+    }
+  },
+  {
+    "text": "I would rather not, it is far away.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.999086320400238,
+      "UNCERTAINTY": 0.998813271522522,
+      "QUESTION": 0.9833245873451233,
+      "NEXT_STEP": 0.932890772819519,
+      "POSITIVE_SIGNAL": 0.04301521182060242
+    }
+  },
+  {
+    "text": "What if I order a pickup instead?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9988288283348083,
+      "QUESTION": 0.9985127449035645,
+      "NEXT_STEP": 0.9980085492134094,
+      "OBJECTION": 0.9967105984687805,
+      "POSITIVE_SIGNAL": 0.9062683582305908
+    }
+  },
+  {
+    "text": "That sounds better.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9951356053352356,
+      "UNCERTAINTY": 0.9903385043144226,
+      "NEXT_STEP": 0.984575629234314,
+      "OBJECTION": 0.9796949625015259,
+      "QUESTION": 0.9523399472236633
+    }
+  },
+  {
+    "text": "Great, I will schedule it.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9994245171546936,
+      "POSITIVE_SIGNAL": 0.9987009167671204,
+      "QUESTION": 0.983314573764801,
+      "UNCERTAINTY": 0.9572892189025879,
+      "OBJECTION": 0.6716154217720032
+    }
+  },
+  {
+    "text": "Are you okay with the plan?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9988852143287659,
+      "NEXT_STEP": 0.9975135326385498,
+      "POSITIVE_SIGNAL": 0.9939246773719788,
+      "UNCERTAINTY": 0.9736446738243103,
+      "OBJECTION": 0.15515173971652985
+    }
+  },
+  {
+    "text": "Yes, I am excited to try it.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9986188411712646,
+      "NEXT_STEP": 0.9972274899482727,
+      "QUESTION": 0.9885092973709106,
+      "OBJECTION": 0.6054887771606445,
+      "UNCERTAINTY": 0.3889988958835602
+    }
+  },
+  {
+    "text": "Could we start on Monday?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9971818923950195,
+      "QUESTION": 0.9968633055686951,
+      "UNCERTAINTY": 0.9955522418022156,
+      "POSITIVE_SIGNAL": 0.9698917269706726,
+      "OBJECTION": 0.9509463906288147
+    }
+  },
+  {
+    "text": "Maybe, I might need one more day.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9994908571243286,
+      "OBJECTION": 0.9979775547981262,
+      "QUESTION": 0.996338427066803,
+      "NEXT_STEP": 0.9571120738983154,
+      "POSITIVE_SIGNAL": 0.6824889779090881
+    }
+  },
+  {
+    "text": "Okay, let's start Tuesday then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9979022145271301,
+      "POSITIVE_SIGNAL": 0.9956374764442444,
+      "UNCERTAINTY": 0.9951388239860535,
+      "QUESTION": 0.9921247363090515,
+      "OBJECTION": 0.9560102820396423
+    }
+  },
+  {
+    "text": "Can you share your thoughts on the proposal?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.998289942741394,
+      "NEXT_STEP": 0.9968096613883972,
+      "UNCERTAINTY": 0.9204975366592407,
+      "POSITIVE_SIGNAL": 0.6520581245422363,
+      "OBJECTION": 0.49994757771492004
+    }
+  },
+  {
+    "text": "I don't think it addresses the main concern.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9900726079940796,
+      "QUESTION": 0.9734205603599548,
+      "OBJECTION": 0.9588764309883118,
+      "NEXT_STEP": 0.7457649111747742,
+      "POSITIVE_SIGNAL": 0.0011507872259244323
+    }
+  },
+  {
+    "text": "What concern do you mean?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.999331533908844,
+      "UNCERTAINTY": 0.9975903630256653,
+      "OBJECTION": 0.2333981841802597,
+      "NEXT_STEP": 0.08038220554590225,
+      "POSITIVE_SIGNAL": 0.0002195931738242507
+    }
+  },
+  {
+    "text": "The timeline seems too aggressive.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.995639443397522,
+      "NEXT_STEP": 0.9840078353881836,
+      "QUESTION": 0.9476315379142761,
+      "UNCERTAINTY": 0.08430606126785278,
+      "POSITIVE_SIGNAL": 0.012406098656356335
+    }
+  },
+  {
+    "text": "What if we extend it by two weeks?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9983258843421936,
+      "UNCERTAINTY": 0.9979022741317749,
+      "NEXT_STEP": 0.9969390034675598,
+      "OBJECTION": 0.9815016388893127,
+      "POSITIVE_SIGNAL": 0.9563765525817871
+    }
+  },
+  {
+    "text": "That would help.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9959889650344849,
+      "QUESTION": 0.9933338165283203,
+      "UNCERTAINTY": 0.989728569984436,
+      "POSITIVE_SIGNAL": 0.985550582408905,
+      "OBJECTION": 0.9525937438011169
+    }
+  },
+  {
+    "text": "Great, I will update the proposal.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9978858828544617,
+      "POSITIVE_SIGNAL": 0.9959959983825684,
+      "QUESTION": 0.9920953512191772,
+      "UNCERTAINTY": 0.9867544174194336,
+      "OBJECTION": 0.8773587346076965
+    }
+  },
+  {
+    "text": "Do you want to join the group chat?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9965074062347412,
+      "NEXT_STEP": 0.9873959422111511,
+      "POSITIVE_SIGNAL": 0.9869552254676819,
+      "UNCERTAINTY": 0.9830453991889954,
+      "OBJECTION": 0.5318637490272522
+    }
+  },
+  {
+    "text": "Sure, add me.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.998636782169342,
+      "POSITIVE_SIGNAL": 0.9986063838005066,
+      "QUESTION": 0.9961778521537781,
+      "UNCERTAINTY": 0.9835180640220642,
+      "OBJECTION": 0.9653899669647217
+    }
+  },
+  {
+    "text": "Should we set some rules for it?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9942662715911865,
+      "UNCERTAINTY": 0.9925223588943481,
+      "OBJECTION": 0.9803226590156555,
+      "NEXT_STEP": 0.9645546078681946,
+      "POSITIVE_SIGNAL": 0.16953080892562866
+    }
+  },
+  {
+    "text": "I guess we should, otherwise it gets noisy.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9959388375282288,
+      "UNCERTAINTY": 0.9930076599121094,
+      "QUESTION": 0.9853889346122742,
+      "POSITIVE_SIGNAL": 0.9740922451019287,
+      "OBJECTION": 0.9664251804351807
+    }
+  },
+  {
+    "text": "Okay, let's keep it to updates only.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9962663054466248,
+      "OBJECTION": 0.9873292446136475,
+      "QUESTION": 0.9858129620552063,
+      "NEXT_STEP": 0.9440751075744629,
+      "POSITIVE_SIGNAL": 0.9112738966941833
+    }
+  },
+  {
+    "text": "Can we make a decision now?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9958872199058533,
+      "NEXT_STEP": 0.9929803013801575,
+      "UNCERTAINTY": 0.9791259765625,
+      "POSITIVE_SIGNAL": 0.8837153315544128,
+      "OBJECTION": 0.5863025784492493
+    }
+  },
+  {
+    "text": "Not yet, I need to think.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9985821843147278,
+      "OBJECTION": 0.9967691898345947,
+      "QUESTION": 0.9909005761146545,
+      "NEXT_STEP": 0.9379621744155884,
+      "POSITIVE_SIGNAL": 0.013321459293365479
+    }
+  },
+  {
+    "text": "What would help you decide?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9982923269271851,
+      "UNCERTAINTY": 0.6702719330787659,
+      "NEXT_STEP": 0.4181691110134125,
+      "POSITIVE_SIGNAL": 0.08935485780239105,
+      "OBJECTION": 0.03673508018255234
+    }
+  },
+  {
+    "text": "Maybe seeing two alternatives side by side.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9965583682060242,
+      "UNCERTAINTY": 0.9918527007102966,
+      "POSITIVE_SIGNAL": 0.9011774063110352,
+      "NEXT_STEP": 0.8841278553009033,
+      "OBJECTION": 0.6403858065605164
+    }
+  },
+  {
+    "text": "Alright, I will prepare that.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9987311363220215,
+      "POSITIVE_SIGNAL": 0.9946528673171997,
+      "QUESTION": 0.988052487373352,
+      "UNCERTAINTY": 0.9866519570350647,
+      "OBJECTION": 0.8223815560340881
+    }
+  },
+  {
+    "text": "Do you like this idea?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9986228346824646,
+      "NEXT_STEP": 0.996003270149231,
+      "POSITIVE_SIGNAL": 0.9954609274864197,
+      "UNCERTAINTY": 0.8905537128448486,
+      "OBJECTION": 0.013875019736588001
+    }
+  },
+  {
+    "text": "Yes, it is a good idea.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9987160563468933,
+      "POSITIVE_SIGNAL": 0.9984476566314697,
+      "QUESTION": 0.9892708659172058,
+      "UNCERTAINTY": 0.6115745306015015,
+      "OBJECTION": 0.0272387508302927
+    }
+  },
+  {
+    "text": "Should we try it this week?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9980117082595825,
+      "UNCERTAINTY": 0.9971864819526672,
+      "NEXT_STEP": 0.9969406127929688,
+      "POSITIVE_SIGNAL": 0.9800189733505249,
+      "OBJECTION": 0.9183574914932251
+    }
+  },
+  {
+    "text": "I am not sure we have enough time.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9994285702705383,
+      "OBJECTION": 0.9956207871437073,
+      "QUESTION": 0.992160439491272,
+      "NEXT_STEP": 0.9432854056358337,
+      "POSITIVE_SIGNAL": 0.06363631784915924
+    }
+  },
+  {
+    "text": "What if we do a smaller version first?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9987195730209351,
+      "UNCERTAINTY": 0.9983821511268616,
+      "NEXT_STEP": 0.996640682220459,
+      "OBJECTION": 0.9915670156478882,
+      "POSITIVE_SIGNAL": 0.9427874684333801
+    }
+  },
+  {
+    "text": "Okay, that works for me.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9987143278121948,
+      "NEXT_STEP": 0.9933776259422302,
+      "UNCERTAINTY": 0.9858201742172241,
+      "QUESTION": 0.9692936539649963,
+      "OBJECTION": 0.9483746886253357
+    }
+  },
+  {
+    "text": "Could you help with the presentation?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9943717122077942,
+      "NEXT_STEP": 0.9758807420730591,
+      "UNCERTAINTY": 0.9455559849739075,
+      "POSITIVE_SIGNAL": 0.8908327221870422,
+      "OBJECTION": 0.06428748369216919
+    }
+  },
+  {
+    "text": "Yes, happy to.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.999491810798645,
+      "NEXT_STEP": 0.9943888783454895,
+      "QUESTION": 0.9192557334899902,
+      "UNCERTAINTY": 0.05959291011095047,
+      "OBJECTION": 0.010687243193387985
+    }
+  },
+  {
+    "text": "Can you draft the first two slides?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9946219325065613,
+      "QUESTION": 0.9918556213378906,
+      "UNCERTAINTY": 0.9782731533050537,
+      "POSITIVE_SIGNAL": 0.7438182234764099,
+      "OBJECTION": 0.5667369365692139
+    }
+  },
+  {
+    "text": "I can't, I have another deadline.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9990381002426147,
+      "UNCERTAINTY": 0.9983700513839722,
+      "QUESTION": 0.9408584237098694,
+      "NEXT_STEP": 0.6136239171028137,
+      "POSITIVE_SIGNAL": 0.009044989012181759
+    }
+  },
+  {
+    "text": "What can you do instead?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9979668259620667,
+      "UNCERTAINTY": 0.9898236393928528,
+      "OBJECTION": 0.9865222573280334,
+      "NEXT_STEP": 0.7155525088310242,
+      "POSITIVE_SIGNAL": 0.055549755692481995
+    }
+  },
+  {
+    "text": "Maybe I can review and suggest edits.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9928823709487915,
+      "QUESTION": 0.9911255836486816,
+      "OBJECTION": 0.9764857888221741,
+      "NEXT_STEP": 0.9486615657806396,
+      "POSITIVE_SIGNAL": 0.6585796475410461
+    }
+  },
+  {
+    "text": "Great, let's do that.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.999523937702179,
+      "NEXT_STEP": 0.9995105862617493,
+      "QUESTION": 0.9150533080101013,
+      "UNCERTAINTY": 0.1769631803035736,
+      "OBJECTION": 0.004825270734727383
+    }
+  },
+  {
+    "text": "Are you free this weekend?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9980190992355347,
+      "UNCERTAINTY": 0.9919361472129822,
+      "NEXT_STEP": 0.9576225280761719,
+      "POSITIVE_SIGNAL": 0.9539726376533508,
+      "OBJECTION": 0.8214335441589355
+    }
+  },
+  {
+    "text": "Maybe, I am not sure yet.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9995729923248291,
+      "QUESTION": 0.9983906149864197,
+      "OBJECTION": 0.9866753220558167,
+      "NEXT_STEP": 0.8855845332145691,
+      "POSITIVE_SIGNAL": 0.486670583486557
+    }
+  },
+  {
+    "text": "How about a short hike on Sunday?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.998630702495575,
+      "QUESTION": 0.9975384473800659,
+      "POSITIVE_SIGNAL": 0.9926519393920898,
+      "UNCERTAINTY": 0.9925867319107056,
+      "OBJECTION": 0.6883150935173035
+    }
+  },
+  {
+    "text": "That sounds great.",
+    "gold": [
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9992290735244751,
+      "NEXT_STEP": 0.9951321482658386,
+      "QUESTION": 0.9730640053749084,
+      "OBJECTION": 0.5331774950027466,
+      "UNCERTAINTY": 0.0756259560585022
+    }
+  },
+  {
+    "text": "Let's decide the time tomorrow.",
+    "gold": [
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9986746907234192,
+      "UNCERTAINTY": 0.9962839484214783,
+      "QUESTION": 0.995581865310669,
+      "POSITIVE_SIGNAL": 0.9939455389976501,
+      "OBJECTION": 0.9908238649368286
+    }
+  },
+  {
+    "text": "Can you send the invoice today?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9974907040596008,
+      "UNCERTAINTY": 0.9944295287132263,
+      "NEXT_STEP": 0.9922084808349609,
+      "POSITIVE_SIGNAL": 0.9377402067184448,
+      "OBJECTION": 0.8186649680137634
+    }
+  },
+  {
+    "text": "I am not sure it is ready yet.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9995449781417847,
+      "QUESTION": 0.9956405162811279,
+      "OBJECTION": 0.9917500615119934,
+      "NEXT_STEP": 0.9555869698524475,
+      "POSITIVE_SIGNAL": 0.2828613519668579
+    }
+  },
+  {
+    "text": "What is missing?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.999159038066864,
+      "UNCERTAINTY": 0.9882419109344482,
+      "OBJECTION": 0.7825229167938232,
+      "NEXT_STEP": 0.08758195489645004,
+      "POSITIVE_SIGNAL": 0.0017095012590289116
+    }
+  },
+  {
+    "text": "A few line items, and I don't want to guess.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9938773512840271,
+      "UNCERTAINTY": 0.9904619455337524,
+      "OBJECTION": 0.8838773965835571,
+      "NEXT_STEP": 0.1918896585702896,
+      "POSITIVE_SIGNAL": 0.02454221621155739
+    }
+  },
+  {
+    "text": "Okay, let's finish the missing items first.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9926344156265259,
+      "UNCERTAINTY": 0.9898394346237183,
+      "NEXT_STEP": 0.9889899492263794,
+      "OBJECTION": 0.9650409817695618,
+      "POSITIVE_SIGNAL": 0.9533637762069702
+    }
+  },
+  {
+    "text": "Great, I will update it now.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9965279698371887,
+      "UNCERTAINTY": 0.9920200109481812,
+      "QUESTION": 0.9913351535797119,
+      "NEXT_STEP": 0.9901019334793091,
+      "OBJECTION": 0.9466516375541687
+    }
+  },
+  {
+    "text": "Do you want to switch to a different tool?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9988141059875488,
+      "UNCERTAINTY": 0.9966806173324585,
+      "OBJECTION": 0.9946897625923157,
+      "NEXT_STEP": 0.9933831095695496,
+      "POSITIVE_SIGNAL": 0.6380626559257507
+    }
+  },
+  {
+    "text": "I would rather not, switching is painful.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9988908171653748,
+      "UNCERTAINTY": 0.9981537461280823,
+      "NEXT_STEP": 0.9101026654243469,
+      "QUESTION": 0.8962001800537109,
+      "POSITIVE_SIGNAL": 0.004776191897690296
+    }
+  },
+  {
+    "text": "What makes it painful?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9983349442481995,
+      "UNCERTAINTY": 0.9907717108726501,
+      "OBJECTION": 0.9703690409660339,
+      "NEXT_STEP": 0.9623059630393982,
+      "POSITIVE_SIGNAL": 0.0003825097228400409
+    }
+  },
+  {
+    "text": "Maybe the setup and the learning curve.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9919410943984985,
+      "UNCERTAINTY": 0.9901826977729797,
+      "NEXT_STEP": 0.8815233707427979,
+      "OBJECTION": 0.6244482398033142,
+      "POSITIVE_SIGNAL": 0.28025364875793457
+    }
+  },
+  {
+    "text": "What if we try it with a small team first?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9983815550804138,
+      "NEXT_STEP": 0.9979274868965149,
+      "UNCERTAINTY": 0.9977054595947266,
+      "OBJECTION": 0.9844395518302917,
+      "POSITIVE_SIGNAL": 0.9796134233474731
+    }
+  },
+  {
+    "text": "That sounds acceptable.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9993667602539062,
+      "NEXT_STEP": 0.9870070815086365,
+      "QUESTION": 0.9582381844520569,
+      "UNCERTAINTY": 0.7963556051254272,
+      "OBJECTION": 0.0489584319293499
+    }
+  },
+  {
+    "text": "Great, let's plan a small trial.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9991956353187561,
+      "POSITIVE_SIGNAL": 0.998644232749939,
+      "QUESTION": 0.9909752011299133,
+      "UNCERTAINTY": 0.9620441794395447,
+      "OBJECTION": 0.9263826608657837
+    }
+  },
+  {
+    "text": "Could we review the budget today?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9964718818664551,
+      "UNCERTAINTY": 0.9936226606369019,
+      "NEXT_STEP": 0.9896243810653687,
+      "POSITIVE_SIGNAL": 0.9166330695152283,
+      "OBJECTION": 0.6920521259307861
+    }
+  },
+  {
+    "text": "Not today, I need more time.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "OBJECTION": 0.9991798400878906,
+      "UNCERTAINTY": 0.9991756081581116,
+      "QUESTION": 0.9862091541290283,
+      "NEXT_STEP": 0.9764919281005859,
+      "POSITIVE_SIGNAL": 0.1692361831665039
+    }
+  },
+  {
+    "text": "When would you like to review it?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9973083734512329,
+      "UNCERTAINTY": 0.9765588641166687,
+      "NEXT_STEP": 0.9554312825202942,
+      "POSITIVE_SIGNAL": 0.9370735287666321,
+      "OBJECTION": 0.6812174916267395
+    }
+  },
+  {
+    "text": "Maybe tomorrow morning.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9984610676765442,
+      "NEXT_STEP": 0.9972178339958191,
+      "QUESTION": 0.9925664663314819,
+      "OBJECTION": 0.9899671077728271,
+      "POSITIVE_SIGNAL": 0.9522362947463989
+    }
+  },
+  {
+    "text": "Okay, let's schedule it for tomorrow.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9990027546882629,
+      "POSITIVE_SIGNAL": 0.9968397617340088,
+      "UNCERTAINTY": 0.9882699847221375,
+      "QUESTION": 0.9840197563171387,
+      "OBJECTION": 0.8054036498069763
+    }
+  },
+  {
+    "text": "Do you want to try a different approach?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9983997941017151,
+      "UNCERTAINTY": 0.9935474991798401,
+      "NEXT_STEP": 0.9919278621673584,
+      "OBJECTION": 0.9580854773521423,
+      "POSITIVE_SIGNAL": 0.694851815700531
+    }
+  },
+  {
+    "text": "Yes, I think that would be better.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9979553818702698,
+      "NEXT_STEP": 0.9976047277450562,
+      "UNCERTAINTY": 0.9953700304031372,
+      "QUESTION": 0.9896156191825867,
+      "OBJECTION": 0.9810267090797424
+    }
+  },
+  {
+    "text": "What should we change first?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9987590312957764,
+      "UNCERTAINTY": 0.9911679625511169,
+      "NEXT_STEP": 0.9776975512504578,
+      "OBJECTION": 0.8446271419525146,
+      "POSITIVE_SIGNAL": 0.06726060807704926
+    }
+  },
+  {
+    "text": "Maybe the order of steps.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "QUESTION": 0.9927718639373779,
+      "UNCERTAINTY": 0.9860472679138184,
+      "NEXT_STEP": 0.9816004633903503,
+      "OBJECTION": 0.4863211214542389,
+      "POSITIVE_SIGNAL": 0.14148907363414764
+    }
+  },
+  {
+    "text": "Alright, let's reorder and test.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9963300824165344,
+      "QUESTION": 0.9955115914344788,
+      "OBJECTION": 0.9882553219795227,
+      "NEXT_STEP": 0.9873385429382324,
+      "POSITIVE_SIGNAL": 0.7202460169792175
+    }
+  },
+  {
+    "text": "Can we invite Jordan to join?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9977990984916687,
+      "QUESTION": 0.9976706504821777,
+      "UNCERTAINTY": 0.993475615978241,
+      "POSITIVE_SIGNAL": 0.985680341720581,
+      "OBJECTION": 0.7147533893585205
+    }
+  },
+  {
+    "text": "I don't think so, it might complicate things.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9991543889045715,
+      "OBJECTION": 0.9980099201202393,
+      "QUESTION": 0.9946989417076111,
+      "NEXT_STEP": 0.9641532897949219,
+      "POSITIVE_SIGNAL": 0.09256864339113235
+    }
+  },
+  {
+    "text": "Why would it complicate things?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9971618056297302,
+      "UNCERTAINTY": 0.9809019565582275,
+      "OBJECTION": 0.847440779209137,
+      "NEXT_STEP": 0.8469879031181335,
+      "POSITIVE_SIGNAL": 0.006417581345885992
+    }
+  },
+  {
+    "text": "He tends to challenge every decision.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "OBJECTION": 0.9988412857055664,
+      "UNCERTAINTY": 0.9984434843063354,
+      "QUESTION": 0.9766466021537781,
+      "NEXT_STEP": 0.8379563689231873,
+      "POSITIVE_SIGNAL": 0.0010154008632525802
+    }
+  },
+  {
+    "text": "What if we ask him for feedback asynchronously?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9970951676368713,
+      "NEXT_STEP": 0.9825877547264099,
+      "UNCERTAINTY": 0.9804881811141968,
+      "OBJECTION": 0.7248440384864807,
+      "POSITIVE_SIGNAL": 0.6744139194488525
+    }
+  },
+  {
+    "text": "Okay, that sounds safer.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9943172335624695,
+      "NEXT_STEP": 0.9902684092521667,
+      "UNCERTAINTY": 0.9810754060745239,
+      "QUESTION": 0.9642682671546936,
+      "OBJECTION": 0.9338119029998779
+    }
+  },
+  {
+    "text": "Great, let's do that.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.999523937702179,
+      "NEXT_STEP": 0.9995105862617493,
+      "QUESTION": 0.9150533080101013,
+      "UNCERTAINTY": 0.1769631803035736,
+      "OBJECTION": 0.004825270734727383
+    }
+  },
+  {
+    "text": "Are you comfortable proceeding?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9971979856491089,
+      "NEXT_STEP": 0.992603600025177,
+      "UNCERTAINTY": 0.9810391664505005,
+      "POSITIVE_SIGNAL": 0.975951611995697,
+      "OBJECTION": 0.49165067076683044
+    }
+  },
+  {
+    "text": "I am not sure, I have a few concerns.",
+    "gold": [
+      "UNCERTAINTY",
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9997031092643738,
+      "QUESTION": 0.9990081191062927,
+      "OBJECTION": 0.9943525791168213,
+      "NEXT_STEP": 0.7354042530059814,
+      "POSITIVE_SIGNAL": 0.0032667743507772684
+    }
+  },
+  {
+    "text": "What concerns do you have?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.998741626739502,
+      "UNCERTAINTY": 0.9907124042510986,
+      "NEXT_STEP": 0.331388920545578,
+      "OBJECTION": 0.308416485786438,
+      "POSITIVE_SIGNAL": 0.0006687422865070403
+    }
+  },
+  {
+    "text": "Maybe the risk of delays and the handoff.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.998397946357727,
+      "QUESTION": 0.9971520900726318,
+      "NEXT_STEP": 0.9798554182052612,
+      "OBJECTION": 0.964576780796051,
+      "POSITIVE_SIGNAL": 0.16725040972232819
+    }
+  },
+  {
+    "text": "What if we add a checkpoint mid week?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9986644983291626,
+      "QUESTION": 0.9980320930480957,
+      "UNCERTAINTY": 0.9978935122489929,
+      "OBJECTION": 0.9880114793777466,
+      "POSITIVE_SIGNAL": 0.9291393756866455
+    }
+  },
+  {
+    "text": "Yes, that would help.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9981490969657898,
+      "POSITIVE_SIGNAL": 0.9974133968353271,
+      "QUESTION": 0.9937242865562439,
+      "UNCERTAINTY": 0.9840236306190491,
+      "OBJECTION": 0.8636472821235657
+    }
+  },
+  {
+    "text": "Great, let's add that checkpoint.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9992004632949829,
+      "POSITIVE_SIGNAL": 0.9984005689620972,
+      "QUESTION": 0.9888482689857483,
+      "OBJECTION": 0.9747889041900635,
+      "UNCERTAINTY": 0.9465610384941101
+    }
+  },
+  {
+    "text": "Do you want to try cooking tonight?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9979788064956665,
+      "NEXT_STEP": 0.9979749917984009,
+      "POSITIVE_SIGNAL": 0.9912124276161194,
+      "UNCERTAINTY": 0.9823042750358582,
+      "OBJECTION": 0.21423162519931793
+    }
+  },
+  {
+    "text": "Sure, that could be fun.",
+    "gold": [
+      "UNCERTAINTY",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "POSITIVE_SIGNAL": 0.9987657070159912,
+      "UNCERTAINTY": 0.9927375912666321,
+      "NEXT_STEP": 0.9926102757453918,
+      "QUESTION": 0.9867503643035889,
+      "OBJECTION": 0.979924738407135
+    }
+  },
+  {
+    "text": "What should we make?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9988343715667725,
+      "UNCERTAINTY": 0.9937226176261902,
+      "NEXT_STEP": 0.9856404066085815,
+      "OBJECTION": 0.7620567679405212,
+      "POSITIVE_SIGNAL": 0.5294321775436401
+    }
+  },
+  {
+    "text": "Maybe pasta, I guess.",
+    "gold": [
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9984127283096313,
+      "QUESTION": 0.9898272752761841,
+      "OBJECTION": 0.9873775243759155,
+      "NEXT_STEP": 0.9794963002204895,
+      "POSITIVE_SIGNAL": 0.9161195755004883
+    }
+  },
+  {
+    "text": "Okay, let's do pasta.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9990332126617432,
+      "POSITIVE_SIGNAL": 0.9981688857078552,
+      "UNCERTAINTY": 0.9708265066146851,
+      "QUESTION": 0.9428837895393372,
+      "OBJECTION": 0.7118851542472839
+    }
+  },
+  {
+    "text": "Can you review this quickly?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9967800378799438,
+      "UNCERTAINTY": 0.9965535402297974,
+      "NEXT_STEP": 0.983100175857544,
+      "OBJECTION": 0.9630447626113892,
+      "POSITIVE_SIGNAL": 0.7707546353340149
+    }
+  },
+  {
+    "text": "Not right now, I am in the middle of something.",
+    "gold": [
+      "OBJECTION"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9977130889892578,
+      "OBJECTION": 0.9976798892021179,
+      "QUESTION": 0.9786401391029358,
+      "NEXT_STEP": 0.9435411095619202,
+      "POSITIVE_SIGNAL": 0.1350216567516327
+    }
+  },
+  {
+    "text": "When can you look at it?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9983624815940857,
+      "UNCERTAINTY": 0.9917832016944885,
+      "NEXT_STEP": 0.979836642742157,
+      "POSITIVE_SIGNAL": 0.9327361583709717,
+      "OBJECTION": 0.9107367992401123
+    }
+  },
+  {
+    "text": "Maybe in an hour.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9978771805763245,
+      "QUESTION": 0.9934397339820862,
+      "NEXT_STEP": 0.9903650283813477,
+      "OBJECTION": 0.988438606262207,
+      "POSITIVE_SIGNAL": 0.9320312142372131
+    }
+  },
+  {
+    "text": "Okay, I will remind you then.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9855201840400696,
+      "QUESTION": 0.9773100018501282,
+      "NEXT_STEP": 0.9720186591148376,
+      "OBJECTION": 0.9506994485855103,
+      "POSITIVE_SIGNAL": 0.9384139776229858
+    }
+  },
+  {
+    "text": "Do you want to proceed with the purchase?",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9983545541763306,
+      "NEXT_STEP": 0.9964816570281982,
+      "POSITIVE_SIGNAL": 0.9796302914619446,
+      "UNCERTAINTY": 0.9693799614906311,
+      "OBJECTION": 0.4271143972873688
+    }
+  },
+  {
+    "text": "I would rather not, I am not convinced yet.",
+    "gold": [
+      "OBJECTION",
+      "UNCERTAINTY"
+    ],
+    "scores": {
+      "UNCERTAINTY": 0.9997258186340332,
+      "OBJECTION": 0.9995496273040771,
+      "QUESTION": 0.9964468479156494,
+      "NEXT_STEP": 0.9778132438659668,
+      "POSITIVE_SIGNAL": 0.01705922558903694
+    }
+  },
+  {
+    "text": "What would convince you?",
+    "gold": [
+      "QUESTION"
+    ],
+    "scores": {
+      "QUESTION": 0.9979406595230103,
+      "NEXT_STEP": 0.8983615040779114,
+      "UNCERTAINTY": 0.8457375168800354,
+      "POSITIVE_SIGNAL": 0.33708101511001587,
+      "OBJECTION": 0.13522736728191376
+    }
+  },
+  {
+    "text": "Maybe a clearer comparison and a trial.",
+    "gold": [
+      "UNCERTAINTY",
+      "NEXT_STEP"
+    ],
+    "scores": {
+      "QUESTION": 0.9975458979606628,
+      "UNCERTAINTY": 0.9901537299156189,
+      "NEXT_STEP": 0.921675443649292,
+      "OBJECTION": 0.8936029076576233,
+      "POSITIVE_SIGNAL": 0.05875137075781822
+    }
+  },
+  {
+    "text": "Okay, let's set up a short trial.",
+    "gold": [
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "NEXT_STEP": 0.9975038170814514,
+      "UNCERTAINTY": 0.9936227202415466,
+      "QUESTION": 0.9923819899559021,
+      "POSITIVE_SIGNAL": 0.9893696308135986,
+      "OBJECTION": 0.9823986291885376
+    }
+  },
+  {
+    "text": "Sounds good, let me know the details.",
+    "gold": [
+      "QUESTION",
+      "NEXT_STEP",
+      "POSITIVE_SIGNAL"
+    ],
+    "scores": {
+      "QUESTION": 0.9988042712211609,
+      "POSITIVE_SIGNAL": 0.9984896183013916,
+      "NEXT_STEP": 0.9982995986938477,
+      "UNCERTAINTY": 0.9643661975860596,
+      "OBJECTION": 0.5444443225860596
+    }
+  }
+]

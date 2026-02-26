@@ -1,0 +1,7 @@
+{
+  "OBJECTION": 0.15,
+  "NEXT_STEP": 0.25,
+  "UNCERTAINTY": 0.2,
+  "POSITIVE_SIGNAL": 0.1,
+  "QUESTION": 0.75
+}

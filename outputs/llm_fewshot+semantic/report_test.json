@@ -1,0 +1,117 @@
+{
+  "micro": {
+    "precision": 0.9674,
+    "recall": 0.9468,
+    "f1": 0.957,
+    "tp": 89,
+    "fp": 3,
+    "fn": 5
+  },
+  "macro_f1": 0.9567,
+  "per_class": {
+    "OBJECTION": {
+      "precision": 0.8889,
+      "recall": 1.0,
+      "f1": 0.9412,
+      "support": 8,
+      "tp": 8,
+      "fp": 1,
+      "fn": 0
+    },
+    "NEXT_STEP": {
+      "precision": 0.9655,
+      "recall": 0.9032,
+      "f1": 0.9333,
+      "support": 31,
+      "tp": 28,
+      "fp": 1,
+      "fn": 3
+    },
+    "UNCERTAINTY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0
+    },
+    "POSITIVE_SIGNAL": {
+      "precision": 1.0,
+      "recall": 0.8667,
+      "f1": 0.9286,
+      "support": 15,
+      "tp": 13,
+      "fp": 0,
+      "fn": 2
+    },
+    "QUESTION": {
+      "precision": 0.9615,
+      "recall": 1.0,
+      "f1": 0.9804,
+      "support": 25,
+      "tp": 25,
+      "fp": 1,
+      "fn": 0
+    }
+  },
+  "exact_match_ratio": 0.8621,
+  "confusion_pairs": {
+    "NEXT_STEP->NONE": 3,
+    "POSITIVE_SIGNAL->NONE": 2,
+    "NONE->NEXT_STEP": 1,
+    "NONE->QUESTION": 1,
+    "NONE->OBJECTION": 1
+  },
+  "counts": {
+    "total_utterances": 58,
+    "no_event_utterances": 1,
+    "gold_utterances_with_labels": 57,
+    "pred_utterances_with_labels": 57
+  },
+  "retrieval": {
+    "recall_at_k": 1.0,
+    "mrr_at_k": 0.9551,
+    "tp_events_evaluated": 89,
+    "hits": 89,
+    "per_class": {
+      "OBJECTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 8,
+        "hits": 8
+      },
+      "NEXT_STEP": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 28,
+        "hits": 28
+      },
+      "UNCERTAINTY": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 15,
+        "hits": 15
+      },
+      "POSITIVE_SIGNAL": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "tp_events": 13,
+        "hits": 13
+      },
+      "QUESTION": {
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.84,
+        "tp_events": 25,
+        "hits": 25
+      }
+    }
+  },
+  "timing_ms": {
+    "total": 91109
+  },
+  "approaches": {
+    "task1": "llm_fewshot",
+    "task2": "semantic"
+  }
+}

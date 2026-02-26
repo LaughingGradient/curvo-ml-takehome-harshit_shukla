@@ -1,0 +1,13 @@
+{
+  "encoder": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "hidden_dim": 128,
+  "num_labels": 5,
+  "labels": [
+    "OBJECTION",
+    "NEXT_STEP",
+    "UNCERTAINTY",
+    "POSITIVE_SIGNAL",
+    "QUESTION"
+  ]
+}
